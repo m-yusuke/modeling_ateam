@@ -26,8 +26,8 @@ class NextViewController: UIViewController {
     
     @IBAction func Alab(_ sender: Any) {
         //Main3.storyboardへの遷移ボタン
-        let storyboard: UIStoryboard = UIStoryboard(name: "Main3", bundle: nil)
-        let thirdView = storyboard.instantiateViewController(withIdentifier:"third") as! ThirdViewController
+        let storyboard: UIStoryboard = UIStoryboard(name: "LabInfo", bundle: nil)
+        let thirdView = storyboard.instantiateViewController(withIdentifier:"Nagatanien") as! LabViewController
         self.present(thirdView, animated: true, completion: nil)
     }
     
