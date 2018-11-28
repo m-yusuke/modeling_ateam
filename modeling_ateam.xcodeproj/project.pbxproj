@@ -12,6 +12,7 @@
 		69EC08FE21AA75CE00C8E356 /* Main2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69EC08FD21AA75CE00C8E356 /* Main2.storyboard */; };
 		69EC090421AA877400C8E356 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69EC090321AA877400C8E356 /* ThirdViewController.swift */; };
 		69EC090621AA878400C8E356 /* Main3.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69EC090521AA878400C8E356 /* Main3.storyboard */; };
+		6AF9B55A21AE5403002CE0C0 /* LabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF9B55921AE5403002CE0C0 /* LabViewController.swift */; };
 		A8AFDC0421A64E1A00BCF52B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AFDC0321A64E1A00BCF52B /* AppDelegate.swift */; };
 		A8AFDC0621A64E1A00BCF52B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AFDC0521A64E1A00BCF52B /* ViewController.swift */; };
 		A8AFDC0921A64E1A00BCF52B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8AFDC0721A64E1A00BCF52B /* Main.storyboard */; };
@@ -44,6 +45,7 @@
 		69EC08FD21AA75CE00C8E356 /* Main2.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main2.storyboard; sourceTree = "<group>"; };
 		69EC090321AA877400C8E356 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		69EC090521AA878400C8E356 /* Main3.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main3.storyboard; sourceTree = "<group>"; };
+		6AF9B55921AE5403002CE0C0 /* LabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabViewController.swift; sourceTree = "<group>"; };
 		A8AFDC0021A64E1A00BCF52B /* modeling_ateam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = modeling_ateam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8AFDC0321A64E1A00BCF52B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A8AFDC0521A64E1A00BCF52B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 				69EC090321AA877400C8E356 /* ThirdViewController.swift */,
 				69EC090521AA878400C8E356 /* Main3.storyboard */,
 				298CD16421ABCED00073379A /* LabInfo.storyboard */,
+				6AF9B55921AE5403002CE0C0 /* LabViewController.swift */,
 			);
 			path = modeling_ateam;
 			sourceTree = "<group>";
@@ -274,6 +277,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6AF9B55A21AE5403002CE0C0 /* LabViewController.swift in Sources */,
 				A8AFDC0621A64E1A00BCF52B /* ViewController.swift in Sources */,
 				69EC08FC21AA756100C8E356 /* NextViewController.swift in Sources */,
 				69EC090421AA877400C8E356 /* ThirdViewController.swift in Sources */,
