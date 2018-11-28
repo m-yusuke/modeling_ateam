@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		298CD16521ABCED00073379A /* LabInfo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 298CD16421ABCED00073379A /* LabInfo.storyboard */; };
 		69EC08FC21AA756100C8E356 /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69EC08FB21AA756100C8E356 /* NextViewController.swift */; };
-		69EC08FE21AA75CE00C8E356 /* Main2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69EC08FD21AA75CE00C8E356 /* Main2.storyboard */; };
+		69EC08FE21AA75CE00C8E356 /* LabList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69EC08FD21AA75CE00C8E356 /* LabList.storyboard */; };
 		69EC090421AA877400C8E356 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69EC090321AA877400C8E356 /* ThirdViewController.swift */; };
 		69EC090621AA878400C8E356 /* Main3.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69EC090521AA878400C8E356 /* Main3.storyboard */; };
 		6AF9B55A21AE5403002CE0C0 /* LabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF9B55921AE5403002CE0C0 /* LabViewController.swift */; };
@@ -42,7 +42,7 @@
 /* Begin PBXFileReference section */
 		298CD16421ABCED00073379A /* LabInfo.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LabInfo.storyboard; sourceTree = "<group>"; };
 		69EC08FB21AA756100C8E356 /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
-		69EC08FD21AA75CE00C8E356 /* Main2.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main2.storyboard; sourceTree = "<group>"; };
+		69EC08FD21AA75CE00C8E356 /* LabList.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LabList.storyboard; sourceTree = "<group>"; };
 		69EC090321AA877400C8E356 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		69EC090521AA878400C8E356 /* Main3.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main3.storyboard; sourceTree = "<group>"; };
 		6AF9B55921AE5403002CE0C0 /* LabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabViewController.swift; sourceTree = "<group>"; };
@@ -116,7 +116,7 @@
 				A8AFDC0C21A64E1C00BCF52B /* LaunchScreen.storyboard */,
 				A8AFDC0F21A64E1C00BCF52B /* Info.plist */,
 				69EC08FB21AA756100C8E356 /* NextViewController.swift */,
-				69EC08FD21AA75CE00C8E356 /* Main2.storyboard */,
+				69EC08FD21AA75CE00C8E356 /* LabList.storyboard */,
 				69EC090321AA877400C8E356 /* ThirdViewController.swift */,
 				69EC090521AA878400C8E356 /* Main3.storyboard */,
 				298CD16421ABCED00073379A /* LabInfo.storyboard */,
@@ -251,7 +251,7 @@
 				69EC090621AA878400C8E356 /* Main3.storyboard in Resources */,
 				298CD16521ABCED00073379A /* LabInfo.storyboard in Resources */,
 				A8AFDC0B21A64E1C00BCF52B /* Assets.xcassets in Resources */,
-				69EC08FE21AA75CE00C8E356 /* Main2.storyboard in Resources */,
+				69EC08FE21AA75CE00C8E356 /* LabList.storyboard in Resources */,
 				A8AFDC0921A64E1A00BCF52B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

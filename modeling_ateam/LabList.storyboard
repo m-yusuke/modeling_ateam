@@ -13,7 +13,7 @@
         <!--NextViewController-->
         <scene sceneID="w4h-vy-fU0">
             <objects>
-                <viewController storyboardIdentifier="next" id="UjM-cG-MtI" userLabel="NextViewController" customClass="NextViewController" customModule="modeling_ateam" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LabList" id="UjM-cG-MtI" userLabel="NextViewController" customClass="NextViewController" customModule="modeling_ateam" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="FV8-ua-l5H">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
