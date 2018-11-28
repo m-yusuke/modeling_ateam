@@ -24,7 +24,25 @@ class NextViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func Alab(_ sender: Any) {
+        //Main3.storyboardへの遷移ボタン
+        let storyboard: UIStoryboard = UIStoryboard(name: "Main3", bundle: nil)
+        let thirdView = storyboard.instantiateViewController(withIdentifier:"third") as! ThirdViewController
+        self.present(thirdView, animated: true, completion: nil)
+    }
+    
+    @IBAction func Blab(_ sender: Any) {
+        //Main3.storyboardへの遷移ボタン
+        let storyboard: UIStoryboard = UIStoryboard(name: "Main3", bundle: nil)
+        let thirdView = storyboard.instantiateViewController(withIdentifier:"third") as! ThirdViewController
+        self.present(thirdView, animated: true, completion: nil)
+    }
+    @IBAction func Clab(_ sender: Any) {
+        //Main3.storyboardへの遷移ボタン
+        let storyboard: UIStoryboard = UIStoryboard(name: "Main3", bundle: nil)
+        let thirdView = storyboard.instantiateViewController(withIdentifier:"third") as! ThirdViewController
+        self.present(thirdView, animated: true, completion: nil)
+    }
     /*
     // MARK: - Navigation
 
