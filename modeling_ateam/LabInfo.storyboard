@@ -10,18 +10,21 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Nagatanien Lab View Controller-->
         <scene sceneID="yG1-XD-Kp7">
             <objects>
-                <viewController id="K1k-On-QFm" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Nagatanien" id="K1k-On-QFm" userLabel="Nagatanien Lab View Controller" customClass="LabViewController" customModule="modeling_ateam" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="b77-Wd-KWI">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oe1-mf-FhG">
-                                <rect key="frame" x="25" y="41" width="31" height="30"/>
+                                <rect key="frame" x="25" y="41" width="43" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="戻る"/>
+                                <connections>
+                                    <action selector="MoveBack:" destination="K1k-On-QFm" eventType="touchUpInside" id="pkt-lz-rsq"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="長田・谷口研" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SDd-dg-W1K">
                                 <rect key="frame" x="72" y="176" width="231" height="59"/>
@@ -46,10 +49,10 @@
             </objects>
             <point key="canvasLocation" x="-60" y="-29.23538230884558"/>
         </scene>
-        <!--View Controller-->
+        <!--Nagayama Lab View Controller-->
         <scene sceneID="m6G-Il-EgM">
             <objects>
-                <viewController id="rbN-QD-8Uw" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Nagayama" id="rbN-QD-8Uw" userLabel="Nagayama Lab View Controller" customClass="LabViewController" customModule="modeling_ateam" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0tf-fg-ZTZ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -75,6 +78,14 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LqD-SH-exC">
+                                <rect key="frame" x="36" y="36" width="31" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="戻る"/>
+                                <connections>
+                                    <action selector="MoveBack:" destination="rbN-QD-8Uw" eventType="touchUpInside" id="iyk-VT-HhG"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="cG6-jc-MVf"/>
@@ -84,10 +95,10 @@
             </objects>
             <point key="canvasLocation" x="556" y="-29"/>
         </scene>
-        <!--View Controller-->
+        <!--Nakamura Lab View Controller-->
         <scene sceneID="FFn-rb-UbY">
             <objects>
-                <viewController id="UwY-YO-jy1" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Nakamura " id="UwY-YO-jy1" userLabel="Nakamura Lab View Controller" customClass="LabViewController" customModule="modeling_ateam" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="vHU-Cl-maM">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -106,6 +117,14 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tt5-fc-K3N">
+                                <rect key="frame" x="33" y="45" width="31" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="戻る"/>
+                                <connections>
+                                    <action selector="MoveBack:" destination="UwY-YO-jy1" eventType="touchUpInside" id="9Z2-k5-esh"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="qst-xz-ni8"/>
@@ -115,10 +134,10 @@
             </objects>
             <point key="canvasLocation" x="1234" y="-30"/>
         </scene>
-        <!--View Controller-->
+        <!--Yamada Lab View Controller-->
         <scene sceneID="2Yc-nO-NoR">
             <objects>
-                <viewController id="MDd-6J-jLP" sceneMemberID="viewController">
+                <viewController id="MDd-6J-jLP" userLabel="Yamada Lab View Controller" customClass="LabViewController" customModule="modeling_ateam" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="vYg-gT-H7b">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -137,6 +156,14 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GcJ-k9-BEq">
+                                <rect key="frame" x="22" y="48" width="31" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="戻る"/>
+                                <connections>
+                                    <action selector="MoveBack:" destination="MDd-6J-jLP" eventType="touchUpInside" id="rpb-yj-j0B"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="Har-YV-FXf"/>
@@ -146,10 +173,10 @@
             </objects>
             <point key="canvasLocation" x="1881" y="-16"/>
         </scene>
-        <!--View Controller-->
+        <!--kono Lab View Controller-->
         <scene sceneID="Tyi-yi-tDj">
             <objects>
-                <viewController id="orJ-uk-bI0" sceneMemberID="viewController">
+                <viewController id="orJ-uk-bI0" userLabel="kono Lab View Controller" customClass="LabViewController" customModule="modeling_ateam" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qQg-Wh-nX6">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -168,6 +195,15 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3iz-eg-Vxy">
+                                <rect key="frame" x="32" y="20" width="31" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="戻る"/>
+                                <connections>
+                                    <action selector="MoveBack:" destination="orJ-uk-bI0" eventType="touchUpInside" id="BBz-nT-d1R"/>
+                                    <action selector="MoveBack:" destination="MDd-6J-jLP" eventType="touchUpInside" id="Q1E-10-UdG"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="cbc-P4-AA0"/>
@@ -177,28 +213,78 @@
             </objects>
             <point key="canvasLocation" x="2540" y="-23"/>
         </scene>
-        <!--View Controller-->
+        <!--Yoshoda Lab View Controller-->
         <scene sceneID="954-kS-ZsD">
             <objects>
-                <viewController id="iHU-nF-clC" sceneMemberID="viewController">
+                <viewController id="iHU-nF-clC" userLabel="Yoshoda Lab View Controller" customClass="LabViewController" customModule="modeling_ateam" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Kos-c1-84X">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="吉田研" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cbb-gu-JSE">
+                                <rect key="frame" x="94" y="57" width="207" height="94"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="37"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="高信頼アーキテクチャ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YJS-lE-LF4">
+                                <rect key="frame" x="110" y="170" width="174" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CI1-AS-CaC">
+                                <rect key="frame" x="29" y="39" width="31" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="戻る"/>
+                                <connections>
+                                    <action selector="MoveBack:" destination="iHU-nF-clC" eventType="touchUpInside" id="A6I-jH-LLY"/>
+                                    <action selector="MoveBack:" destination="MDd-6J-jLP" eventType="touchUpInside" id="gQy-bY-Ys8"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="oex-dh-PUK"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="p7X-VN-rjl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3209" y="-1"/>
+            <point key="canvasLocation" x="3208.8000000000002" y="-1.3493253373313345"/>
         </scene>
-        <!--View Controller-->
+        <!--Kan Lab View Controller-->
         <scene sceneID="xOS-pG-BNE">
             <objects>
-                <viewController id="Lgf-GT-7Xe" sceneMemberID="viewController">
+                <viewController id="Lgf-GT-7Xe" userLabel="Kan Lab View Controller" customClass="LabViewController" customModule="modeling_ateam" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="BEa-AT-fx4">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="姜研" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tZN-9f-XMa">
+                                <rect key="frame" x="84" y="67" width="207" height="94"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="37"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="知能制御工学" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jyi-Av-OgO">
+                                <rect key="frame" x="135" y="169" width="104" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="udh-qz-Wlk">
+                                <rect key="frame" x="28" y="33" width="31" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="戻る"/>
+                                <connections>
+                                    <action selector="MoveBack:" destination="MDd-6J-jLP" eventType="touchUpInside" id="11l-j3-jgG"/>
+                                    <action selector="MoveBack:" destination="Lgf-GT-7Xe" eventType="touchUpInside" id="2Sy-KV-s7D"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="9YW-ev-erK"/>
                     </view>
@@ -207,10 +293,10 @@
             </objects>
             <point key="canvasLocation" x="3855" y="-12"/>
         </scene>
-        <!--View Controller-->
+        <!--Tamaki Lab View Controller-->
         <scene sceneID="4Ij-NT-Ke5">
             <objects>
-                <viewController id="B7c-kR-hR6" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Tamaki " id="B7c-kR-hR6" userLabel="Tamaki Lab View Controller" customClass="LabViewController" customModule="modeling_ateam" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="QNj-zO-6z0">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -229,6 +315,14 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="10a-Jf-6cQ">
+                                <rect key="frame" x="32" y="34" width="31" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="戻る"/>
+                                <connections>
+                                    <action selector="MoveBack:" destination="B7c-kR-hR6" eventType="touchUpInside" id="i9y-Fp-NG2"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="UmT-YU-6Qx"/>
@@ -236,12 +330,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="igi-So-sP4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-60" y="-699"/>
+            <point key="canvasLocation" x="-60" y="-699.40029985007504"/>
         </scene>
-        <!--View Controller-->
+        <!--Wada Lab View Controller-->
         <scene sceneID="m2T-md-4dH">
             <objects>
-                <viewController id="Gdh-zb-8Qn" sceneMemberID="viewController">
+                <viewController id="Gdh-zb-8Qn" userLabel="Wada Lab View Controller" customClass="LabViewController" customModule="modeling_ateam" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="sQh-Mu-ZgR">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -260,6 +354,14 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Ye-ru-tb0">
+                                <rect key="frame" x="23" y="31" width="31" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="戻る"/>
+                                <connections>
+                                    <action selector="MoveBack:" destination="Gdh-zb-8Qn" eventType="touchUpInside" id="1YE-hg-GKW"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="rL9-Qq-2eJ"/>
@@ -269,10 +371,10 @@
             </objects>
             <point key="canvasLocation" x="556" y="-699"/>
         </scene>
-        <!--View Controller-->
+        <!--Nal Lab View Controller-->
         <scene sceneID="gFT-ew-k45">
             <objects>
-                <viewController id="72j-IW-2uh" sceneMemberID="viewController">
+                <viewController id="72j-IW-2uh" userLabel="Nal Lab View Controller" customClass="LabViewController" customModule="modeling_ateam" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8Gf-O7-iIg">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -305,6 +407,14 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ntv-WC-mai">
+                                <rect key="frame" x="35" y="42" width="31" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="戻る"/>
+                                <connections>
+                                    <action selector="MoveBack:" destination="72j-IW-2uh" eventType="touchUpInside" id="JR1-ey-SYX"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="3pn-Mm-d2r"/>
@@ -314,10 +424,10 @@
             </objects>
             <point key="canvasLocation" x="1245.5999999999999" y="-692.20389805097454"/>
         </scene>
-        <!--View Controller-->
+        <!--Endo Lab View Controller-->
         <scene sceneID="fpa-Ui-pJQ">
             <objects>
-                <viewController id="cIQ-uH-3tB" sceneMemberID="viewController">
+                <viewController id="cIQ-uH-3tB" userLabel="Endo Lab View Controller" customClass="LabViewController" customModule="modeling_ateam" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="F6v-lK-Hcl">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -346,6 +456,14 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7ov-VY-ADN">
+                                <rect key="frame" x="23" y="24" width="31" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="戻る"/>
+                                <connections>
+                                    <action selector="MoveBack:" destination="cIQ-uH-3tB" eventType="touchUpInside" id="MVq-PW-Xoe"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="uJw-qU-7PZ"/>
@@ -355,10 +473,10 @@
             </objects>
             <point key="canvasLocation" x="1904.8" y="-685.00749625187416"/>
         </scene>
-        <!--View Controller-->
+        <!--Akamine Lab View Controller-->
         <scene sceneID="ZxO-Dw-iZI">
             <objects>
-                <viewController id="iXD-if-MWr" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Akamine" id="iXD-if-MWr" userLabel="Akamine Lab View Controller" customClass="LabViewController" customModule="modeling_ateam" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6fl-IR-fN0">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -377,6 +495,15 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B07-qX-6Bc">
+                                <rect key="frame" x="25" y="29" width="31" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="戻る"/>
+                                <connections>
+                                    <action selector="MoveBack:" destination="MDd-6J-jLP" eventType="touchUpInside" id="OSt-Pm-4y2"/>
+                                    <action selector="MoveBack:" destination="iXD-if-MWr" eventType="touchUpInside" id="bCt-yw-7tv"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="KwS-ib-lAu"/>
@@ -386,10 +513,10 @@
             </objects>
             <point key="canvasLocation" x="2566" y="-674"/>
         </scene>
-        <!--View Controller-->
+        <!--Okazaki Lab View Controller-->
         <scene sceneID="fdO-rr-cmJ">
             <objects>
-                <viewController id="CeY-Mb-uQq" sceneMemberID="viewController">
+                <viewController id="CeY-Mb-uQq" userLabel="Okazaki Lab View Controller" customClass="LabViewController" customModule="modeling_ateam" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="BUV-yp-YJf">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -401,6 +528,22 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="情報統計室" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3ev-Oz-G8q">
+                                <rect key="frame" x="144" y="163" width="87" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fvr-K3-IXx">
+                                <rect key="frame" x="27" y="20" width="31" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="戻る"/>
+                                <connections>
+                                    <action selector="MoveBack:" destination="CeY-Mb-uQq" eventType="touchUpInside" id="XO5-lt-INr"/>
+                                    <action selector="MoveBack:" destination="MDd-6J-jLP" eventType="touchUpInside" id="pVW-I7-GcG"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="xPd-Ug-LCH"/>
@@ -408,15 +551,40 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Tr-qi-E3j" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3222" y="-663"/>
+            <point key="canvasLocation" x="3221.5999999999999" y="-663.41829085457277"/>
         </scene>
-        <!--View Controller-->
+        <!--Miyazato Lab View Controller-->
         <scene sceneID="7wS-UZ-zBy">
             <objects>
-                <viewController id="BDe-v8-dEy" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Miyazato" id="BDe-v8-dEy" userLabel="Miyazato Lab View Controller" customClass="LabViewController" customModule="modeling_ateam" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="VnC-3S-Ri0">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="宮里研" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vt7-Ze-7rK">
+                                <rect key="frame" x="84" y="42" width="207" height="94"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="37"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ネットワーク制御" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DOl-GG-eZJ">
+                                <rect key="frame" x="113" y="138" width="139" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZfQ-Jj-3cg">
+                                <rect key="frame" x="24" y="27" width="31" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="戻る"/>
+                                <connections>
+                                    <action selector="MoveBack:" destination="BDe-v8-dEy" eventType="touchUpInside" id="IId-rl-VZo"/>
+                                    <action selector="MoveBack:" destination="MDd-6J-jLP" eventType="touchUpInside" id="fq0-Sw-L6t"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="0o3-Qu-SeD"/>
                     </view>
@@ -425,13 +593,38 @@
             </objects>
             <point key="canvasLocation" x="3855" y="-663"/>
         </scene>
-        <!--View Controller-->
+        <!--Kunita Lab View Controller-->
         <scene sceneID="K6j-zc-9mp">
             <objects>
-                <viewController id="l9H-7n-0hV" sceneMemberID="viewController">
+                <viewController id="l9H-7n-0hV" userLabel="Kunita Lab View Controller" customClass="LabViewController" customModule="modeling_ateam" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0N3-Hl-nnM">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="國田研" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ozm-ui-ksc">
+                                <rect key="frame" x="93" y="82" width="207" height="94"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="37"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="生き物の動き方Lab" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c0Y-eG-ega">
+                                <rect key="frame" x="113" y="169" width="150" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eke-yI-2Ud">
+                                <rect key="frame" x="27" y="27" width="31" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="戻る"/>
+                                <connections>
+                                    <action selector="MoveBack:" destination="l9H-7n-0hV" eventType="touchUpInside" id="d3X-oP-XAb"/>
+                                    <action selector="MoveBack:" destination="MDd-6J-jLP" eventType="touchUpInside" id="y6B-My-aBM"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="nCS-EH-KlE"/>
                     </view>
