@@ -41,6 +41,33 @@
                                     <action selector="BottunThird:" destination="UjM-cG-MtI" eventType="touchUpInside" id="gze-Ev-kGC"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fcr-j2-Zgf">
+                                <rect key="frame" x="136" y="366" width="79" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <state key="normal" title="A-lab"/>
+                                <connections>
+                                    <action selector="Alab:" destination="UjM-cG-MtI" eventType="touchUpInside" id="Yas-RK-Gjh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fGQ-ks-Vwg">
+                                <rect key="frame" x="144" y="432" width="62" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <state key="normal" title="B-lab"/>
+                                <connections>
+                                    <action selector="Blab:" destination="UjM-cG-MtI" eventType="touchUpInside" id="xB9-FW-6Ic"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZBj-Jf-q7v">
+                                <rect key="frame" x="144" y="493" width="63" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <state key="normal" title="C-lab"/>
+                                <connections>
+                                    <action selector="Clab:" destination="UjM-cG-MtI" eventType="touchUpInside" id="jeR-Ys-yTW"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="F6W-ka-vjj"/>
