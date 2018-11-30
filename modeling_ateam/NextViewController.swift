@@ -41,7 +41,7 @@ class NextViewController: UIViewController, UISearchBarDelegate, UITableViewDele
         let searchViewController:SearchViewController = segue.destination as! SearchViewController
         searchViewController.items = array
         // 検索画面のデリゲートを設定する。
-        searchViewController.delegate = self
+        searchViewController.delegate = self        
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -49,6 +49,15 @@ class NextViewController: UIViewController, UISearchBarDelegate, UITableViewDele
         let cell = tableView.dequeueReusableCell(withIdentifier:  "labCell", for:indexPath as IndexPath)
         cell.textLabel?.text = self.outputArrays[indexPath.row] as? String
         return cell
+    }
+    
+    // cellが押されたときに呼ばれる関数
+    // 画面遷移の処理もここで書いている
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        let storyboard: UIStoryboard = UIStoryboard(name: "LabInfo", bundle: nil)
+        let labView = storyboard.instantiateViewController(withIdentifier:"Nagatanien") as! LabViewController
+        self.present(labView, animated: true, completion: nil)
     }
     
     override func didReceiveMemoryWarning() {
