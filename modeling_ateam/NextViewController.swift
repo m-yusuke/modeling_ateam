@@ -11,6 +11,9 @@ import UIKit
 class NextViewController: UIViewController, UISearchBarDelegate, UITableViewDelegate, UITableViewDataSource,ModalViewControllerDelegate {
     @IBOutlet weak var tableView: UITableView!
     
+    @IBAction func Bottonturn(_ sender: Any) {      
+        self.dismiss(animated:true, completion: nil)
+    }
     // データ操作用の配列
     private var array:NSArray = []
     // 出力用の配列
@@ -24,7 +27,7 @@ class NextViewController: UIViewController, UISearchBarDelegate, UITableViewDele
         outputArrays = array
         
         tableView.dataSource = self    //追加
-        tableView.delegate = self // 追加
+        tableView.delegate = self // 追加               
 
         // Do any additional setup after loading the view.
     }
