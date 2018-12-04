@@ -27,20 +27,31 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="長田・谷口研" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SDd-dg-W1K">
-                                <rect key="frame" x="72" y="176" width="231" height="59"/>
+                                <rect key="frame" x="199" y="92" width="355" height="59"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="33"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="インターネットシステム・学習環境システム研究室" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Izt-Mk-BDp">
-                                <rect key="frame" x="25" y="251" width="387" height="67"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="avt-RO-vz6">
+                                <rect key="frame" x="182" y="326" width="10" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text" base64-UTF8="YES">
-44Kk44Oz44K/44O844ON44OD44OI44K344K544OG44Og44O75a2m57+S55Kw5aKD44K344K544OG44Og
-56CU56m25a6kERERA
-</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Rab-uQ-3fe">
+                                <rect key="frame" x="40" y="292" width="688" height="732"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <mutableString key="text">長田・谷口研では、インターネットや情報システムに関するさまざまな研究・開発に取り組んでいます。具体的には、プロトコルレベルの基礎研究・開発から、デジタルコンテンツ流通システムや地域インターネットエクスチェンジ、教育・福祉分野向けのシステム開発など、基礎技術を応用した実用システムの研究・開発まで幅広く取り組んでいます。 長田研で取り組んでいる研究他の活動は、将来多くの学生のみなさんが目指すシステムエンジニアの就職に役立つ内容であるとともに、大学院に進学してより高度なスキルを身に付けていくこともできます(自分を高く売るためにぜひ大学院に進学しましょう)。</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="インターネットシステム・学習環境システム研究室" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Izt-Mk-BDp">
+                                <rect key="frame" x="5" y="187" width="743" height="67"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -51,7 +62,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9EF-Nq-nwU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-60" y="-29.23538230884558"/>
+            <point key="canvasLocation" x="-60.15625" y="-29.296874999999996"/>
         </scene>
         <!--Nagayama Lab View Controller-->
         <scene sceneID="m6G-Il-EgM">
@@ -305,10 +316,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="時空間IoTシステム" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lS4-ws-zKq">
-                                <rect key="frame" x="105" y="236" width="164" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="玉城研" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wHP-eA-MSJ">
+                                <rect key="frame" x="262" y="90" width="244" height="88"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -320,10 +331,18 @@
                                     <action selector="MoveBack:" destination="B7c-kR-hR6" eventType="touchUpInside" id="i9y-Fp-NG2"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="玉城研" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wHP-eA-MSJ">
-                                <rect key="frame" x="98" y="116" width="244" height="88"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="wdP-du-VtS">
+                                <rect key="frame" x="34" y="306" width="701" height="674"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="33"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <mutableString key="text">玉城研究室では当初より、インターネットの世界の中でどのような機器を最適に配置するかを研究していました。その中で進化したのがIoT技術を基盤としたエネルギー・環境・農業生産システムです。特に、農業生産においては、その成長過程における環境制御が非常に重要となります。現在、IoTを駆使してマンゴーやイチゴ、サラダ菜などの農産物の生産も行いながら、その品質を農学部の先生方と共同で農学的見地から解析しています。また、環境計測では、降雨レーダーを用いてゲリラ豪雨の誕生から消滅までのプロセスの予測を行っています。これらの成果は、豪雨や雷の予測に応用が可能です。すなわち、沖縄という亜熱帯地域における時空間IoTを積極的に活用することを目的としています。</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="時空間IoTシステム" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lS4-ws-zKq">
+                                <rect key="frame" x="231" y="206" width="328" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -334,7 +353,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="igi-So-sP4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-60" y="-699.40029985007504"/>
+            <point key="canvasLocation" x="-60.15625" y="-699.609375"/>
         </scene>
         <!--Wada Lab View Controller-->
         <scene sceneID="m2T-md-4dH">
@@ -345,16 +364,9 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ファイヤー和田研" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A6f-Jc-1IK">
-                                <rect key="frame" x="54" y="121" width="267" height="58"/>
+                                <rect key="frame" x="118" y="95" width="533" height="58"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="33"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ディジタルシステム" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xfn-1W-qYZ">
-                                <rect key="frame" x="109" y="213" width="156" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -366,6 +378,21 @@
                                     <action selector="MoveBack:" destination="Gdh-zb-8Qn" eventType="touchUpInside" id="1YE-hg-GKW"/>
                                 </connections>
                             </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Jrp-bE-Stq">
+                                <rect key="frame" x="33" y="300" width="693" height="642"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <mutableString key="text">ディジタルシステムを実現する技術を基礎として、最近ではディジタル無線通信処理システムや計算量の多いDeep Learningシステムの構築に関する研究を行っています。以前は、ディジタル放送、無線LAN、携帯電話関連でしたが、最近は沖縄県近海に海底資源が発見されたこともあり、海中通信システムを一つのターゲットとしています。一つの方法は音による通信ですが、水中の音伝搬は1500m/sec程度と電波に比べて非常に遅いので、ドップラー効果の影響が大きくディジタル信号処理を多用して現実の厳しい環境で利用できるシステムの研究開発を県内・県外の企業との共同研究開発を実施しています。そして、他の方法として光を利用する方法の検討も始めています。</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ディジタルシステム" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xfn-1W-qYZ">
+                                <rect key="frame" x="239" y="189" width="291" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="rL9-Qq-2eJ"/>
@@ -373,7 +400,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7xo-Gx-Ldb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="556" y="-699"/>
+            <point key="canvasLocation" x="555.46875" y="-699.0234375"/>
         </scene>
         <!--Nal Lab View Controller-->
         <scene sceneID="gFT-ew-k45">
