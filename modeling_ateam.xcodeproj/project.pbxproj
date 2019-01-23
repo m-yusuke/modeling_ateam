@@ -12,6 +12,8 @@
 		69EC08FE21AA75CE00C8E356 /* LabList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69EC08FD21AA75CE00C8E356 /* LabList.storyboard */; };
 		69EC090421AA877400C8E356 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69EC090321AA877400C8E356 /* ThirdViewController.swift */; };
 		69EC090621AA878400C8E356 /* Main3.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69EC090521AA878400C8E356 /* Main3.storyboard */; };
+		6A04574C21F82CCC008AF322 /* ResultJudge.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A04574B21F82CCC008AF322 /* ResultJudge.storyboard */; };
+		6A04574E21F82CEE008AF322 /* ResultJudge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A04574D21F82CEE008AF322 /* ResultJudge.swift */; };
 		6AF9B55A21AE5403002CE0C0 /* LabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF9B55921AE5403002CE0C0 /* LabViewController.swift */; };
 		A895082021AEEC2100287CEC /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A895081F21AEEC2100287CEC /* SearchViewController.swift */; };
 		A8AFDC0421A64E1A00BCF52B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AFDC0321A64E1A00BCF52B /* AppDelegate.swift */; };
@@ -46,6 +48,8 @@
 		69EC08FD21AA75CE00C8E356 /* LabList.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LabList.storyboard; sourceTree = "<group>"; };
 		69EC090321AA877400C8E356 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		69EC090521AA878400C8E356 /* Main3.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main3.storyboard; sourceTree = "<group>"; };
+		6A04574B21F82CCC008AF322 /* ResultJudge.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ResultJudge.storyboard; sourceTree = "<group>"; };
+		6A04574D21F82CEE008AF322 /* ResultJudge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultJudge.swift; sourceTree = "<group>"; };
 		6AF9B55921AE5403002CE0C0 /* LabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabViewController.swift; sourceTree = "<group>"; };
 		A895081F21AEEC2100287CEC /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		A8AFDC0021A64E1A00BCF52B /* modeling_ateam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = modeling_ateam.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -124,6 +128,8 @@
 				69EC090521AA878400C8E356 /* Main3.storyboard */,
 				298CD16421ABCED00073379A /* LabInfo.storyboard */,
 				6AF9B55921AE5403002CE0C0 /* LabViewController.swift */,
+				6A04574B21F82CCC008AF322 /* ResultJudge.storyboard */,
+				6A04574D21F82CEE008AF322 /* ResultJudge.swift */,
 			);
 			path = modeling_ateam;
 			sourceTree = "<group>";
@@ -253,6 +259,7 @@
 				A8AFDC0E21A64E1C00BCF52B /* LaunchScreen.storyboard in Resources */,
 				69EC090621AA878400C8E356 /* Main3.storyboard in Resources */,
 				298CD16521ABCED00073379A /* LabInfo.storyboard in Resources */,
+				6A04574C21F82CCC008AF322 /* ResultJudge.storyboard in Resources */,
 				A8AFDC0B21A64E1C00BCF52B /* Assets.xcassets in Resources */,
 				69EC08FE21AA75CE00C8E356 /* LabList.storyboard in Resources */,
 				A8AFDC0921A64E1A00BCF52B /* Main.storyboard in Resources */,
@@ -284,6 +291,7 @@
 				6AF9B55A21AE5403002CE0C0 /* LabViewController.swift in Sources */,
 				A8AFDC0621A64E1A00BCF52B /* ViewController.swift in Sources */,
 				69EC08FC21AA756100C8E356 /* NextViewController.swift in Sources */,
+				6A04574E21F82CEE008AF322 /* ResultJudge.swift in Sources */,
 				69EC090421AA877400C8E356 /* ThirdViewController.swift in Sources */,
 				A8AFDC0421A64E1A00BCF52B /* AppDelegate.swift in Sources */,
 			);

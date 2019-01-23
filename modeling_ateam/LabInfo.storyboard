@@ -51,7 +51,7 @@
                                 <rect key="frame" x="40" y="262" width="688" height="732"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <mutableString key="text" base64-UTF8="YES">
+                                <string key="text" base64-UTF8="YES">
 44CA6ZW355Sw44O76LC35Y+j56CU44Gn44Gv44CB44Kk44Oz44K/44O844ON44OD44OI44KE5oOF5aCx
 44K344K544OG44Og44Gr6Zai44GZ44KL44GV44G+44GW44G+44Gq56CU56m244O76ZaL55m644Gr5Y+W
 44KK57WE44KT44Gn44GE44G+44GZ44CC5YW35L2T55qE44Gr44Gv44CB44OX44Ot44OI44Kz44Or44Os
@@ -67,7 +67,7 @@ gajjgajjgoLjgavjgIHlpKflrabpmaLjgavpgLLlrabjgZfjgabjgojjgorpq5jluqbjgarjgrnjgq3j
 g6vjgpLouqvjgavku5jjgZHjgabjgYTjgY/jgZPjgajjgoLjgafjgY3jgb7jgZko6Ieq5YiG44KS6auY
 44GP5aOy44KL44Gf44KB44Gr44Gc44Gy5aSn5a2m6Zmi44Gr6YCy5a2m44GX44G+44GX44KH44GGKeOA
 gg
-</mutableString>
+</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -128,7 +128,7 @@ gg
                                 <rect key="frame" x="36" y="258" width="688" height="971"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <mutableString key="text" base64-UTF8="YES">
+                                <string key="text" base64-UTF8="YES">
 44CA5pys56CU56m25a6k44Gn44Gv55S75YOP5Yem55CG77yM5oOF5aCx44Oh44OH44Kj44Ki5bel5a2m
 77yM44K344K544OG44Og5bel5a2m77yM6KiI566X5qmf5bel5a2m77yM6KqN55+l5bel5a2m77yM6YeP
 5a2Q6KiI566X77yM55Sf54mp44K344K544OG44Og562J44KS6J6N5ZCI44GX44Gf44CM5b+c55So6KiI
@@ -144,7 +144,7 @@ uIrnqbrjgYvjgonjg4njg63jg7zjg7PjgpLpgJrjgZjjgaboh6rli5XmjZzntKLjgZnjgovjgarjganm
 rKHkuJbku6Pjga7npL7kvJrjgavjgajjgaPjgablvbnnq4vjgaTjgafjgYLjgo3jgYbjgrfjgrnjg4bj
 g6DjgpLnoJTnqbbplovnmbrjgZnjgovjgZPjgajjgYzph43opoHjgarjg53jgqTjg7Pjg4jjgafjgZnj
 gIIKA
-</mutableString>
+</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -338,7 +338,7 @@ iuOBvuOBmeOAgg
                                 <rect key="frame" x="38" y="216" width="693" height="642"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <mutableString key="text" base64-UTF8="YES">
+                                <string key="text" base64-UTF8="YES">
 44CA5pys56CU56m25a6k44Gn44Gv44CB5Li744Gr6auY5oCn6IO944Ki44O844Kt44OG44Kv44OB44Oj
 44KE6auY5L+h6aC844Ki44O844Kt44OG44Kv44OB44Oj44Gr6Zai44GZ44KL56CU56m244KS6KGM44Gj
 44Gm44GE44G+44GZ44CC44Ki44O844Kt44OG44Kv44OB44Oj44Go44GE44GG6KiA6JGJ44Gv44CB44OP
@@ -355,7 +355,7 @@ gqLjgpLlrp/nj77jgZnjgovjgZ/jgoHjga7jgqLjg7zjgq3jg4bjgq/jg4Hjg6Pjga7jgZPjgajjgafj
 gZnjgILmnKznoJTnqbblrqTjgafjga/jgIHmlrDjgZfjgYTjgqLjg7zjgq3jg4bjgq/jg4Hjg6PjgpLo
 gIPmoYjjgZnjgovjgZ/jgoHjgavjgIHlrabnlJ/jgZ/jgaHjgYzml6XjgIXlpa7pl5jjgZfjgabjgYTj
 gb7jgZnjgII
-</mutableString>
+</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -416,13 +416,6 @@ gb7jgZnjgII
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="玉城研" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wHP-eA-MSJ">
-                                <rect key="frame" x="273" y="78" width="244" height="88"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="10a-Jf-6cQ">
                                 <rect key="frame" x="32" y="34" width="31" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -438,32 +431,46 @@ gb7jgZnjgII
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="wdP-du-VtS">
-                                <rect key="frame" x="32" y="266" width="701" height="674"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="　IoT技術を使ってエネルギー・環境・農業生産システムの研究を行う。" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wdP-du-VtS">
+                                <rect key="frame" x="32" y="332" width="701" height="124"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <mutableString key="text" base64-UTF8="YES">
-44CA546J5Z+O56CU56m25a6k44Gn44Gv5b2T5Yid44KI44KK44CB44Kk44Oz44K/44O844ON44OD44OI
-44Gu5LiW55WM44Gu5Lit44Gn44Gp44Gu44KI44GG44Gq5qmf5Zmo44KS5pyA6YGp44Gr6YWN572u44GZ
-44KL44GL44KS56CU56m244GX44Gm44GE44G+44GX44Gf44CC44Gd44Gu5Lit44Gn6YCy5YyW44GX44Gf
-44Gu44GMSW9U5oqA6KGT44KS5Z+655uk44Go44GX44Gf44Ko44ON44Or44Ku44O844O755Kw5aKD44O7
-6L6y5qWt55Sf55Sj44K344K544OG44Og44Gn44GZ44CC54m544Gr44CB6L6y5qWt55Sf55Sj44Gr44GK
-44GE44Gm44Gv44CB44Gd44Gu5oiQ6ZW36YGO56iL44Gr44GK44GR44KL55Kw5aKD5Yi25b6h44GM6Z2e
-5bi444Gr6YeN6KaB44Go44Gq44KK44G+44GZ44CCEREREREN44CA54++5Zyo44CBSW9U44KS6aeG5L2/
-44GX44Gm44Oe44Oz44K044O844KE44Kk44OB44K044CB44K144Op44OA6I+c44Gq44Gp44Gu6L6y55Sj
-54mp44Gu55Sf55Sj44KC6KGM44GE44Gq44GM44KJ44CB44Gd44Gu5ZOB6LOq44KS6L6y5a2m6YOo44Gu
-5YWI55Sf5pa544Go5YWx5ZCM44Gn6L6y5a2m55qE6KaL5Zyw44GL44KJ6Kej5p6Q44GX44Gm44GE44G+
-44GZ44CC44G+44Gf44CB55Kw5aKD6KiI5ris44Gn44Gv44CB6ZmN6Zuo44Os44O844OA44O844KS55So
-44GE44Gm44Ky44Oq44Op6LGq6Zuo44Gu6KqV55Sf44GL44KJ5raI5ruF44G+44Gn44Gu44OX44Ot44K7
-44K544Gu5LqI5ris44KS6KGM44Gj44Gm44GE44G+44GZ44CC44GT44KM44KJ44Gu5oiQ5p6c44Gv44CB
-6LGq6Zuo44KE6Zu344Gu5LqI5ris44Gr5b+c55So44GM5Y+v6IO944Gn44GZ44CC44GZ44Gq44KP44Gh
-44CB5rKW57iE44Go44GE44GG5Lqc54ax5biv5Zyw5Z+f44Gr44GK44GR44KL5pmC56m66ZaTSW9U44KS
-56mN5qW155qE44Gr5rS755So44GZ44KL44GT44Go44KS55uu55qE44Go44GX44Gm44GE44G+44GZ44CC
-A
-</mutableString>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="~ 概要 ~" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T5z-Jz-mVe">
+                                <rect key="frame" x="170" y="243" width="429" height="81"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <color key="textColor" red="1" green="0.49327188729999999" blue="0.47399842739999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="~ 研究テーマ ~" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1zW-ay-qeS">
+                                <rect key="frame" x="193" y="440" width="429" height="81"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <color key="textColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ynn-wB-Jd4">
+                                <rect key="frame" x="47" y="540" width="701" height="347"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <string key="text">・IoT技術を基盤とした農業システムの開発
+
+・高効率・強風域特化型小型風力発電システムの開発
+
+・果実・葉菜類の品質判別システムの開発</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="玉城研" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wHP-eA-MSJ">
+                                <rect key="frame" x="262" y="78" width="244" height="88"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="UmT-YU-6Qx"/>
@@ -585,7 +592,7 @@ gYTjgb7jgZnjgII
                                 <rect key="frame" x="35" y="240" width="693" height="642"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <mutableString key="text" base64-UTF8="YES">
+                                <string key="text" base64-UTF8="YES">
 44CA44K844Of5b6M44Gr44GK6Iy25Lya44GX44Gm44KL56CU56m25a6k44Gn44GZ44CC55W26ZaT6Ieq
 6Lqr44Gv6KSH6ZuR57O75bel5a2m44KE5Lq65bel55+l6IO944Gr44Gh44Gq44KT44Gg44OG44O844Oe
 44Gr6IiI5ZGz44GM44GC44Gj44Gm44CB5Lit44Gn44KC44CM54m55a6a5a++6LGh6ICF44Gu5L2c5qWt
@@ -602,7 +609,7 @@ gYTjgb7jgZnjgII
 oJTnqbblrqTvvIjlt6UxLTcxMu+8ieOBq+WHuuWQkeOBhOOBpuWFiOi8qeOCieOBi+OCieOBguOCiuOB
 ruOBvuOBvuOBruipseOCkuiBnuOBhOOBpuOBv+OCi+OBruOCguOCquOCueOCueODoeOBl+OBvuOBme+8
 gQ
-</mutableString>
+</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -659,7 +666,7 @@ gQ
                                 <rect key="frame" x="38" y="228" width="693" height="642"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <mutableString key="text" base64-UTF8="YES">
+                                <string key="text" base64-UTF8="YES">
 44CARGVlcCBMZWFybmluZyDjgoTmt7HlsaTlvLfljJblrabnv5Ljgarjganjga7mqZ/morDlrabnv5Lm
 ioDooZPjgpLmtLvnlKjjgZfjgZ/kurrlt6Xnn6Xog73liIbph47jga7noJTnqbbjg7vplovnmbrjgpLo
 oYzjgarjgaPjgabjgYTjgb7jgZnjgIIK44CA5YW35L2T55qE44Gr44Gv44CB6KGo5oOF562J44Gu4oCd
@@ -674,7 +681,7 @@ tLvnlKjjgZfjgZ/lhbHlkIznoJTnqbbjgoLooYzjgarjgaPjgabjgYTjgb7jgZnjgILljZLmpa3noJTn
 qbbjgafjga/mspbnuITpq5jlsILjgajjga7kuqTmtYHkvJrjgpLpgJrjgZjjgablhoXlrrnjga7lhYXl
 rp/jgpLjga/jgYvjgorjgIHlpKflrabpmaLjga7pgLLlrablvozjgavjga/lrabkvJrmtLvli5XjgpLn
 qY3mpbXnmoTjgavooYzjgYTjgb7jgZnjgII
-</mutableString>
+</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -871,8 +878,8 @@ qY3mpbXnmoTjgavooYzjgYTjgb7jgZnjgII
                                 <rect key="frame" x="38" y="227" width="693" height="642"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <mutableString key="text">　(1) 生き物の「動き方」を研究しています。具体的には単細胞生物の学習能や形態形成の物理的な仕組みを研究しています。生物物理学・動物行動学・情報科学・数理科学・複雑系科学などの様々な学問分野を広く学びながら、生き物の「動き方」を探究できます。
-　(2) 生き物の動き方の仕組みを工学に応用することを目指した研究開発を行っています。具体的には、福祉分野や生理心理学をターゲットに、ヒトがどのように動くと身体への負担が小さくなるのか、どのような支援デバイスがあると動きを効率よく学習できるのかを研究しています。ハードウェアからソフトウェアまでの幅広い知識を身に着けながら人にやさしいモノづくりに取り組めます。</mutableString>
+                                <string key="text">　(1) 生き物の「動き方」を研究しています。具体的には単細胞生物の学習能や形態形成の物理的な仕組みを研究しています。生物物理学・動物行動学・情報科学・数理科学・複雑系科学などの様々な学問分野を広く学びながら、生き物の「動き方」を探究できます。
+　(2) 生き物の動き方の仕組みを工学に応用することを目指した研究開発を行っています。具体的には、福祉分野や生理心理学をターゲットに、ヒトがどのように動くと身体への負担が小さくなるのか、どのような支援デバイスがあると動きを効率よく学習できるのかを研究しています。ハードウェアからソフトウェアまでの幅広い知識を身に着けながら人にやさしいモノづくりに取り組めます。</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
