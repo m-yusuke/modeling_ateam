@@ -9,6 +9,25 @@
 import UIKit
 
 class ResultJudge: UIViewController {
+    
+    
+    func maxDicKey(dic:[String:Int]) -> String{
+        let max = dic.values.randomElement();
+        var maxKey:String = ""
+        //辞書の中身をひとつずつ見ていく
+        for (key,value) in dic{
+            if value == max{
+                print("dic key is \(key) , dic value is \(value)")
+                if maxKey == ""{
+                    maxKey = key
+                }else{
+                    print("同じ値の研究室があります。")
+                }
+            }
+        }
+        return maxKey
+    }
+
 
     override func viewDidLoad() {
         super.viewDidLoad()
