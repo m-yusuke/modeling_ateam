@@ -17,10 +17,13 @@
 		A8AFDC0421A64E1A00BCF52B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AFDC0321A64E1A00BCF52B /* AppDelegate.swift */; };
 		A8AFDC0621A64E1A00BCF52B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AFDC0521A64E1A00BCF52B /* ViewController.swift */; };
 		A8AFDC0921A64E1A00BCF52B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8AFDC0721A64E1A00BCF52B /* Main.storyboard */; };
-		A8AFDC0B21A64E1C00BCF52B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8AFDC0A21A64E1C00BCF52B /* Assets.xcassets */; };
 		A8AFDC0E21A64E1C00BCF52B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8AFDC0C21A64E1C00BCF52B /* LaunchScreen.storyboard */; };
 		A8AFDC1921A64E1D00BCF52B /* modeling_ateamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AFDC1821A64E1D00BCF52B /* modeling_ateamTests.swift */; };
 		A8AFDC2421A64E1D00BCF52B /* modeling_ateamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AFDC2321A64E1D00BCF52B /* modeling_ateamUITests.swift */; };
+		A8D2895E21C6196400AFD0AD /* diagnosis.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8D2895D21C6196400AFD0AD /* diagnosis.storyboard */; };
+		A8D2896021C619F500AFD0AD /* DiagnosisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D2895F21C619F500AFD0AD /* DiagnosisViewController.swift */; };
+		A8D2896D21C623D600AFD0AD /* CCheckbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D2896421C623D600AFD0AD /* CCheckbox.swift */; };
+		A8D2897321C6247300AFD0AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8D2897221C6247300AFD0AD /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +55,6 @@
 		A8AFDC0321A64E1A00BCF52B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A8AFDC0521A64E1A00BCF52B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A8AFDC0821A64E1A00BCF52B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A8AFDC0A21A64E1C00BCF52B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A8AFDC0D21A64E1C00BCF52B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A8AFDC0F21A64E1C00BCF52B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A8AFDC1421A64E1D00BCF52B /* modeling_ateamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = modeling_ateamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -61,6 +63,10 @@
 		A8AFDC1F21A64E1D00BCF52B /* modeling_ateamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = modeling_ateamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8AFDC2321A64E1D00BCF52B /* modeling_ateamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = modeling_ateamUITests.swift; sourceTree = "<group>"; };
 		A8AFDC2521A64E1D00BCF52B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8D2895D21C6196400AFD0AD /* diagnosis.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = diagnosis.storyboard; sourceTree = "<group>"; };
+		A8D2895F21C619F500AFD0AD /* DiagnosisViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagnosisViewController.swift; sourceTree = "<group>"; };
+		A8D2896421C623D600AFD0AD /* CCheckbox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCheckbox.swift; sourceTree = "<group>"; };
+		A8D2897221C6247300AFD0AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../../hoge/xcode/CCheckbox-iOS/CCheckbox/Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,10 +117,11 @@
 		A8AFDC0221A64E1A00BCF52B /* modeling_ateam */ = {
 			isa = PBXGroup;
 			children = (
+				A8D2896121C623D600AFD0AD /* CCheckbox */,
 				A8AFDC0321A64E1A00BCF52B /* AppDelegate.swift */,
 				A8AFDC0521A64E1A00BCF52B /* ViewController.swift */,
 				A8AFDC0721A64E1A00BCF52B /* Main.storyboard */,
-				A8AFDC0A21A64E1C00BCF52B /* Assets.xcassets */,
+				A8D2897221C6247300AFD0AD /* Assets.xcassets */,
 				A8AFDC0C21A64E1C00BCF52B /* LaunchScreen.storyboard */,
 				A8AFDC0F21A64E1C00BCF52B /* Info.plist */,
 				69EC08FB21AA756100C8E356 /* NextViewController.swift */,
@@ -124,6 +131,8 @@
 				69EC090521AA878400C8E356 /* Main3.storyboard */,
 				298CD16421ABCED00073379A /* LabInfo.storyboard */,
 				6AF9B55921AE5403002CE0C0 /* LabViewController.swift */,
+				A8D2895D21C6196400AFD0AD /* diagnosis.storyboard */,
+				A8D2895F21C619F500AFD0AD /* DiagnosisViewController.swift */,
 			);
 			path = modeling_ateam;
 			sourceTree = "<group>";
@@ -144,6 +153,14 @@
 				A8AFDC2521A64E1D00BCF52B /* Info.plist */,
 			);
 			path = modeling_ateamUITests;
+			sourceTree = "<group>";
+		};
+		A8D2896121C623D600AFD0AD /* CCheckbox */ = {
+			isa = PBXGroup;
+			children = (
+				A8D2896421C623D600AFD0AD /* CCheckbox.swift */,
+			);
+			path = CCheckbox;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,10 +268,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8AFDC0E21A64E1C00BCF52B /* LaunchScreen.storyboard in Resources */,
+				A8D2895E21C6196400AFD0AD /* diagnosis.storyboard in Resources */,
 				69EC090621AA878400C8E356 /* Main3.storyboard in Resources */,
 				298CD16521ABCED00073379A /* LabInfo.storyboard in Resources */,
-				A8AFDC0B21A64E1C00BCF52B /* Assets.xcassets in Resources */,
 				69EC08FE21AA75CE00C8E356 /* LabList.storyboard in Resources */,
+				A8D2897321C6247300AFD0AD /* Assets.xcassets in Resources */,
 				A8AFDC0921A64E1A00BCF52B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,7 +298,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8D2896D21C623D600AFD0AD /* CCheckbox.swift in Sources */,
 				A895082021AEEC2100287CEC /* SearchViewController.swift in Sources */,
+				A8D2896021C619F500AFD0AD /* DiagnosisViewController.swift in Sources */,
 				6AF9B55A21AE5403002CE0C0 /* LabViewController.swift in Sources */,
 				A8AFDC0621A64E1A00BCF52B /* ViewController.swift in Sources */,
 				69EC08FC21AA756100C8E356 /* NextViewController.swift in Sources */,

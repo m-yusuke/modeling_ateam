@@ -12,10 +12,12 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    
+    var result : [String : Int] = ["akamine" : 0, "yamada" : 0, "kono": 0, "nagatani" : 0 , "nagayama" : 0, "yoshida" : 0, "NAL" : 0, "nakamura" : 0, "kunita" : 0, "kang" : 0, "endo" : 0, "tamaki" : 0, "okazaki" : 0, "miyazato" : 0, "wada" : 0]
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        // Override point for customization after application         
         return true
     }
 
