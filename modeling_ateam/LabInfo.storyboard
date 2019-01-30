@@ -33,13 +33,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="avt-RO-vz6">
-                                <rect key="frame" x="182" y="326" width="10" height="33"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="インターネットシステム・学習環境システム研究室" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Izt-Mk-BDp">
                                 <rect key="frame" x="5" y="187" width="743" height="67"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -47,27 +40,38 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Rab-uQ-3fe">
-                                <rect key="frame" x="40" y="262" width="688" height="732"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="インターネットや情報システムに関するさまざまな研究・開発" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ECK-Ft-ReB">
+                                <rect key="frame" x="26" y="368" width="701" height="124"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <string key="text" base64-UTF8="YES">
-44CA6ZW355Sw44O76LC35Y+j56CU44Gn44Gv44CB44Kk44Oz44K/44O844ON44OD44OI44KE5oOF5aCx
-44K344K544OG44Og44Gr6Zai44GZ44KL44GV44G+44GW44G+44Gq56CU56m244O76ZaL55m644Gr5Y+W
-44KK57WE44KT44Gn44GE44G+44GZ44CC5YW35L2T55qE44Gr44Gv44CB44OX44Ot44OI44Kz44Or44Os
-44OZ44Or44Gu5Z+656SO56CU56m244O76ZaL55m644GL44KJ44CB44OH44K444K/44Or44Kz44Oz44OG
-44Oz44OE5rWB6YCa44K344K544OG44Og44KE5Zyw5Z+f44Kk44Oz44K/44O844ON44OD44OI44Ko44Kv
-44K544OB44Kn44Oz44K444CB5pWZ6IKy44O756aP56WJ5YiG6YeO5ZCR44GR44Gu44K344K544OG44Og
-6ZaL55m644Gq44Gp44CB5Z+656SO5oqA6KGT44KS5b+c55So44GX44Gf5a6f55So44K344K544OG44Og
-44Gu56CU56m244O76ZaL55m644G+44Gn5bmF5bqD44GP5Y+W44KK57WE44KT44Gn44GE44G+44GZ44CC
-IBERERHigKjjgIDplbfnlLDnoJTjgaflj5bjgorntYTjgpPjgafjgYTjgovnoJTnqbbku5bjga7mtLvl
-i5Xjga/jgIHlsIbmnaXlpJrjgY/jga7lrabnlJ/jga7jgb/jgarjgZXjgpPjgYznm67mjIfjgZnjgrfj
-grnjg4bjg6Djgqjjg7Pjgrjjg4vjgqLjga7lsLHogbfjgavlvbnnq4vjgaTlhoXlrrnjgafjgYLjgovj
-gajjgajjgoLjgavjgIHlpKflrabpmaLjgavpgLLlrabjgZfjgabjgojjgorpq5jluqbjgarjgrnjgq3j
-g6vjgpLouqvjgavku5jjgZHjgabjgYTjgY/jgZPjgajjgoLjgafjgY3jgb7jgZko6Ieq5YiG44KS6auY
-44GP5aOy44KL44Gf44KB44Gr44Gc44Gy5aSn5a2m6Zmi44Gr6YCy5a2m44GX44G+44GX44KH44GGKeOA
-gg
-</string>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="~ 概要 ~" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="70G-3i-bUB">
+                                <rect key="frame" x="164" y="279" width="429" height="81"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <color key="textColor" red="1" green="0.49327188729999999" blue="0.47399842739999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="~ 研究テーマ ~" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vsq-hP-N36">
+                                <rect key="frame" x="187" y="476" width="429" height="81"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <color key="textColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mlW-bE-ulh">
+                                <rect key="frame" x="41" y="576" width="701" height="360"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <string key="text">・統合型汎用高速・高品質トランスポートプロトコルに関する研究
+
+・インターネットセキュリティに関する研究
+
+・無線LANのインターネットインフラ利活用に関する研究
+
+など</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -124,27 +128,38 @@ gg
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="xoq-fC-Y7O">
-                                <rect key="frame" x="36" y="258" width="688" height="971"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="~ 概要 ~" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yPr-97-c8d">
+                                <rect key="frame" x="162" y="269" width="429" height="81"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <string key="text" base64-UTF8="YES">
-44CA5pys56CU56m25a6k44Gn44Gv55S75YOP5Yem55CG77yM5oOF5aCx44Oh44OH44Kj44Ki5bel5a2m
-77yM44K344K544OG44Og5bel5a2m77yM6KiI566X5qmf5bel5a2m77yM6KqN55+l5bel5a2m77yM6YeP
-5a2Q6KiI566X77yM55Sf54mp44K344K544OG44Og562J44KS6J6N5ZCI44GX44Gf44CM5b+c55So6KiI
-566X5bel5a2m44CN44Go44GE44GG5YiG6YeO44KS6ZaL5ouT44GX44Gm44GE44G+44GZ44CC5b6T5p2l
-44Gu5p6g57WE44G/44Gr44Go44KJ44KP44KM44Ga5paw44GX44GE5rS755So44KE55CG6KuW44KS5o6i
-5rGC44GX77yM5oOF5aCx5oqA6KGT44O756eR5a2m5oqA6KGT44KS6J6N5ZCI44GZ44KL44Go44Go44KC
-44Gr5qeY44CF44Gq5b2i44Gn5b2556uL44Gm44KL44GT44Go44GM55uu55qE44Gn44GZ44CCEQ3jgIDn
-ibnjgavjgIzoppbjgovjgI3jgIzopovjgYjjgovjgI3jgajjgYTjgYbmqZ/og73jgahWaXN1YWwgSW5m
-b3JtYXRpb27jgpLvvIznlLvlg4/lh6bnkIbjgajkurrlt6Xnn6Xog73jg7vmqZ/morDlrabnv5Ljga7n
-tbHlkIjjgajjgYTjgYblvaLjgafmtLvnlKjjgZfvvIzniq/nvarooYzli5Xjga7oh6rli5XmpJznn6Xj
-goTjgrvjgq3jg6Xjg6rjg4bjgqPlrp/nj77jgavlvbnnq4vjgabjgZ/jgorvvIzpga3pm6PogIXjgpLk
-uIrnqbrjgYvjgonjg4njg63jg7zjg7PjgpLpgJrjgZjjgaboh6rli5XmjZzntKLjgZnjgovjgarjganm
-rKHkuJbku6Pjga7npL7kvJrjgavjgajjgaPjgablvbnnq4vjgaTjgafjgYLjgo3jgYbjgrfjgrnjg4bj
-g6DjgpLnoJTnqbbplovnmbrjgZnjgovjgZPjgajjgYzph43opoHjgarjg53jgqTjg7Pjg4jjgafjgZnj
-gIIKA
-</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <color key="textColor" red="1" green="0.49327188729999999" blue="0.47399842739999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="~ 研究テーマ ~" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aps-Ct-Cre">
+                                <rect key="frame" x="179" y="490" width="429" height="81"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <color key="textColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QYy-FT-oxp">
+                                <rect key="frame" x="34" y="579" width="701" height="360"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <string key="text">・インテリジェント防犯カメラシステムの開発
+
+・自律型レスキュードローンシステムの研究
+
+・量子コンピュータの理論
+
+など</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="画像処理，情報メディア工学，システム工学，計算機工学，認知工学，量子計算，生物システム等を融合した「応用計算工学」という分野を研究" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3h1-7b-5Ec">
+                                <rect key="frame" x="34" y="327" width="701" height="169"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -187,24 +202,38 @@ gIIKA
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="MfK-ru-nBe">
-                                <rect key="frame" x="60" y="241" width="688" height="971"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="分散、協調、並列などの特徴を持つシステムを対象とした、モデリング、解析、最適化のための手法、アルゴリズム、システム開発を行う研究" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JJS-X4-N1R">
+                                <rect key="frame" x="35" y="358" width="701" height="169"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <string key="text" base64-UTF8="YES">
-44CA5YiG5pWj44CB5Y2U6Kq/44CB5Lim5YiX44Gq44Gp44Gu54m55b6044KS5oyB44Gk44K344K544OG
-44Og44KS5a++6LGh44Go44GX44Gf44CB44Oi44OH44Oq44Oz44Kw44CB6Kej5p6Q44CB5pyA6YGp5YyW
-44Gu44Gf44KB44Gu5omL5rOV44CB44Ki44Or44K044Oq44K644Og44CB44K344K544OG44Og6ZaL55m6
-44KS6KGM44GG56CU56m244KS6KGM44Gq44Gj44Gm44GE44G+44GZ44CC5Li744Gr44ON44OD44OI55CG
-6KuW44CB44Kw44Op44OV55CG6KuW44KS55So44GE44Gf44Ki44OX44Ot44O844OB44Gn5aSn6KaP5qih
-44Gn6KSH6ZuR44Gq44K344K544OG44Og44KS5oq96LGh5YyW44GX44CB5ZWP6aGM44KS6Kej5rG644GX
-44KE44GZ44GP44GX44G+44GZ44CCEeKAqOOAgOOBvuOBn+Wkp+imj+aooeODh+ODvOOCv+OBq+WvvuOB
-meOCi+apn+aisOWtpue/kuOAgeacgOmBqeWMluWHpueQhuaKgOihk+OBrumWi+eZuuOCguihjOOBo+OB
-puOBhOOBvuOBmeOAguW/nOeUqOWIhumHjuOBr+OAgeOCs+ODs+ODlOODpeODvOOCv+OCt+OCueODhuOD
-oOOBrumrmOWKueeOh+Wun+ihjOOAgeOCueODnuODvOODiOi+sualreOAgeODkOOCpOOCquaDheWgseWH
-pueQhuOAgUlvVOOCu+ODs+OCteODvOODjeODg+ODiOODr+ODvOOCr+etieOAgeWkmuWykOOBq+a4oeOC
-iuOBvuOBmeOAgg
-</string>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="~ 概要 ~" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZnH-bg-hQn">
+                                <rect key="frame" x="163" y="300" width="429" height="81"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <color key="textColor" red="1" green="0.49327188729999999" blue="0.47399842739999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="~ 研究テーマ ~" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dIL-Wf-z9o">
+                                <rect key="frame" x="180" y="521" width="429" height="81"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <color key="textColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="db2-xM-EKZ">
+                                <rect key="frame" x="35" y="610" width="701" height="398"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <string key="text">・ネット理論に基づく数理計画の自動生成に関する研究
+
+・大規模最適化計算のための並列処理技術に関する研究
+
+・機械学習と最適化処理の応用研究（SNS、バイオ、農業、土木）
+
+など</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -254,6 +283,41 @@ iuOBvuOBmeOAgg
                                 <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="アナログとデジタルの橋渡しを支援・強化・代替する方法を研究" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LZb-qd-bsa">
+                                <rect key="frame" x="22" y="328" width="701" height="131"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="~ 研究テーマ ~" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xvC-Mp-7mt">
+                                <rect key="frame" x="175" y="436" width="429" height="81"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <color key="textColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bcx-YN-GxR">
+                                <rect key="frame" x="34" y="548" width="701" height="398"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <string key="text">・ドローンや車椅子のナビゲーション
+
+・インターフェース，ロボットの頭脳となる人工知能
+
+・簡易VR装置の歩行リバビリテーションへの応用
+
+など</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="~ 概要 ~" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8iv-vl-jwC">
+                                <rect key="frame" x="175" y="239" width="429" height="81"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <color key="textColor" red="1" green="0.49327188729999999" blue="0.47399842739999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="Har-YV-FXf"/>
@@ -294,6 +358,43 @@ iuOBvuOBmeOAgg
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="研究内容は、研究室の名前にとらわれず、いろんなことをやっています。" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hzt-sB-e3S">
+                                <rect key="frame" x="32" y="320" width="701" height="131"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="~ 概要 ~" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X4w-WQ-W9v">
+                                <rect key="frame" x="170" y="231" width="429" height="81"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <color key="textColor" red="1" green="0.49327188729999999" blue="0.47399842739999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="~ 研究テーマ ~" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hOW-tf-WtI">
+                                <rect key="frame" x="193" y="428" width="429" height="81"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <color key="textColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ds8-cv-iuL">
+                                <rect key="frame" x="47" y="528" width="701" height="398"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <string key="text">・プログラミングの上から下まで
+
+・並列処理
+
+・OS
+
+・カレー
+
+など</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="cbc-P4-AA0"/>
@@ -334,28 +435,38 @@ iuOBvuOBmeOAgg
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Oec-jf-Llb">
-                                <rect key="frame" x="38" y="216" width="693" height="642"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="主に高性能アーキテクチャや高信頼アーキテクチャに関する研究" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pdC-Bq-Cbf">
+                                <rect key="frame" x="29" y="358" width="701" height="131"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <string key="text" base64-UTF8="YES">
-44CA5pys56CU56m25a6k44Gn44Gv44CB5Li744Gr6auY5oCn6IO944Ki44O844Kt44OG44Kv44OB44Oj
-44KE6auY5L+h6aC844Ki44O844Kt44OG44Kv44OB44Oj44Gr6Zai44GZ44KL56CU56m244KS6KGM44Gj
-44Gm44GE44G+44GZ44CC44Ki44O844Kt44OG44Kv44OB44Oj44Go44GE44GG6KiA6JGJ44Gv44CB44OP
-44O844OJ44Km44Kn44Ki44Gu5YaF6YOo5qeL6YCg44KE6Kit6KiI5pa55byP44Go44GE44GG5oSP5ZGz
-44Gn55So44GE44KJ44KM44KL5bCC6ZaA55So6Kqe44Gn44GZ44CC5ZCM44GY5qmf6IO944KS5oyB44Gj
-44Gf44OP44O844OJ44Km44Kn44Ki44Gn44KC44CB44Ki44O844Kt44OG44Kv44OB44Oj44KS5bel5aSr
-44GZ44KL44GT44Go44Gn44CB5qeY44CF44Gq5oCn6LOq44KS5oyB44Gj44Gf44OP44O844OJ44Km44Kn
-44Ki44KS5a6f54++44Gn44GN44G+44GZ44CC5L6L44GI44Gw44CB5Yem55CG6YCf5bqm44GM6YCf44GE
-44OP44O844OJ44Km44Kn44Ki44CB44Kz44Oz44OR44Kv44OI44Gq44OP44O844OJ44Km44Kn44Ki44CB
-5raI6LK76Zu75Yqb44GM5L2O44GE44OP44O844OJ44Km44Kn44Ki44Gq44Gp44Gn44GZEeOAgg3jgIDp
-q5jmgKfog73jgqLjg7zjgq3jg4bjgq/jg4Hjg6PjgIHpq5jkv6HpoLzjgqLjg7zjgq3jg4bjgq/jg4Hj
-g6Pjgajjga/jgIHpq5jmgKfog73jgYLjgovjgYTjga/pq5jkv6HpoLzjgarjg4/jg7zjg4njgqbjgqfj
-gqLjgpLlrp/nj77jgZnjgovjgZ/jgoHjga7jgqLjg7zjgq3jg4bjgq/jg4Hjg6Pjga7jgZPjgajjgafj
-gZnjgILmnKznoJTnqbblrqTjgafjga/jgIHmlrDjgZfjgYTjgqLjg7zjgq3jg4bjgq/jg4Hjg6PjgpLo
-gIPmoYjjgZnjgovjgZ/jgoHjgavjgIHlrabnlJ/jgZ/jgaHjgYzml6XjgIXlpa7pl5jjgZfjgabjgYTj
-gb7jgZnjgII
-</string>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="~ 概要 ~" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ji3-2X-HyH">
+                                <rect key="frame" x="167" y="269" width="429" height="81"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <color key="textColor" red="1" green="0.49327188729999999" blue="0.47399842739999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="~ 研究テーマ ~" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0BQ-dX-zlI">
+                                <rect key="frame" x="190" y="466" width="429" height="81"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <color key="textColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iQb-Nw-KCy">
+                                <rect key="frame" x="44" y="566" width="701" height="398"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <string key="text">・SD表現を用いた高性能演算器に関する研究
+
+・近似計算に基づく小規模かつ省電力な演算器に関する研究
+
+・高速暗号器の設計および開発に関する研究
+
+など</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -397,6 +508,41 @@ gb7jgZnjgII
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                 <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="「人に役に立つ」研究を統合的に取り組んでおり, 知能工学に基づくアルゴリズム開発, コンピュータを利用したシステム設計, 自律学習システム構築への発展を目指している." adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pDc-3Z-4M3">
+                                <rect key="frame" x="20" y="331" width="701" height="169"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="~ 概要 ~" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="by1-ff-Bhl">
+                                <rect key="frame" x="158" y="242" width="429" height="81"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <color key="textColor" red="1" green="0.49327188729999999" blue="0.47399842739999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="n17-40-z1H">
+                                <rect key="frame" x="22" y="606" width="701" height="398"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <string key="text">・機械学習アルゴリズムの開発
+
+・バイオデータの解析
+
+・WEB 配信用教育コンテンツの作成と評価
+
+など</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="~ 研究テーマ ~" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xyu-7q-9Ey">
+                                <rect key="frame" x="170" y="497" width="429" height="81"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <color key="textColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -460,7 +606,9 @@ gb7jgZnjgII
 
 ・高効率・強風域特化型小型風力発電システムの開発
 
-・果実・葉菜類の品質判別システムの開発</string>
+・果実・葉菜類の品質判別システムの開発
+
+など</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -496,31 +644,6 @@ gb7jgZnjgII
                                     <action selector="MoveBack:" destination="Gdh-zb-8Qn" eventType="touchUpInside" id="1YE-hg-GKW"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Jrp-bE-Stq">
-                                <rect key="frame" x="38" y="273" width="693" height="642"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <mutableString key="text" base64-UTF8="YES">
-44CA44OH44Kj44K444K/44Or44K344K544OG44Og44KS5a6f54++44GZ44KL5oqA6KGT44KS5Z+656SO
-44Go44GX44Gm44CB5pyA6L+R44Gn44Gv44OH44Kj44K444K/44Or54Sh57ea6YCa5L+h5Yem55CG44K3
-44K544OG44Og44KE6KiI566X6YeP44Gu5aSa44GERGVlcCBMZWFybmluZ+OCt+OCueODhuODoOOBruan
-i+evieOBq+mWouOBmeOCi+eglOeptuOCkuihjOOBo+OBpuOBhOOBvuOBmeOAghHigKjjgIDku6XliY3j
-ga/jgIHjg4fjgqPjgrjjgr/jg6vmlL7pgIHjgIHnhKHnt5pMQU7jgIHmkLrluK/pm7voqbHplqLpgKPj
-gafjgZfjgZ/jgYzjgIHmnIDov5Hjga/mspbnuITnnIzov5HmtbfjgavmtbflupXos4fmupDjgYznmbro
-povjgZXjgozjgZ/jgZPjgajjgoLjgYLjgorjgIHmtbfkuK3pgJrkv6Hjgrfjgrnjg4bjg6DjgpLkuIDj
-gaTjga7jgr/jg7zjgrLjg4Pjg4jjgajjgZfjgabjgYTjgb7jgZnjgILkuIDjgaTjga7mlrnms5Xjga/p
-n7PjgavjgojjgovpgJrkv6HjgafjgZnjgYzjgIHmsLTkuK3jga7pn7PkvJ3mkKzjga8xNTAwbS9zZWPn
-qIvluqbjgajpm7vms6Ljgavmr5TjgbnjgabpnZ7luLjjgavpgYXjgYTjga7jgafjgIHjg4njg4Pjg5fj
-g6njg7zlirnmnpzjga7lvbHpn7/jgYzlpKfjgY3jgY/jg4fjgqPjgrjjgr/jg6vkv6Hlj7flh6bnkIbj
-gpLlpJrnlKjjgZfjgabnj77lrp/jga7ljrPjgZfjgYTnkrDlooPjgafliKnnlKjjgafjgY3jgovjgrfj
-grnjg4bjg6Djga7noJTnqbbplovnmbrjgpLnnIzlhoXjg7vnnIzlpJbjga7kvIHmpa3jgajjga7lhbHl
-kIznoJTnqbbplovnmbrjgpLlrp/mlr3jgZfjgabjgYTjgb7jgZnjgILjgZ3jgZfjgabjgIHku5bjga7m
-lrnms5XjgajjgZfjgablhYnjgpLliKnnlKjjgZnjgovmlrnms5Xjga7mpJzoqI7jgoLlp4vjgoHjgabj
-gYTjgb7jgZnjgII
-</mutableString>
-                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ディジタルシステム" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xfn-1W-qYZ">
                                 <rect key="frame" x="239" y="189" width="291" height="39"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -535,6 +658,41 @@ gYTjgb7jgZnjgII
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="ディジタル無線通信処理システムや計算量の多いDeep Learningシステムの構築に関する研究を行う。" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pMC-O2-DJg">
+                                <rect key="frame" x="23" y="325" width="701" height="131"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="~ 概要 ~" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g10-mq-2hP">
+                                <rect key="frame" x="161" y="236" width="429" height="81"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <color key="textColor" red="1" green="0.49327188729999999" blue="0.47399842739999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="~ 研究テーマ ~" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v8F-4t-dnk">
+                                <rect key="frame" x="184" y="433" width="429" height="81"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <color key="textColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FYv-vG-Gdc">
+                                <rect key="frame" x="38" y="533" width="701" height="398"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <string key="text">・携帯電話のような水中無線通信の音響通信による実現
+
+・海中利用を想定したLEDを用いた可視光OFDM通信に関する研究
+
+・Deep Learning Systemの簡素化実装に関する研究
+
+など</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="rL9-Qq-2eJ"/>
@@ -588,28 +746,38 @@ gYTjgb7jgZnjgII
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Dgd-fG-aZx">
-                                <rect key="frame" x="35" y="240" width="693" height="642"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="複雑系工学や人工知能にちなんだテーマで、「特定対象者の作業を支援する技術をどう実現するか」という研究" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gqy-je-W7v">
+                                <rect key="frame" x="20" y="346" width="701" height="131"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <string key="text" base64-UTF8="YES">
-44CA44K844Of5b6M44Gr44GK6Iy25Lya44GX44Gm44KL56CU56m25a6k44Gn44GZ44CC55W26ZaT6Ieq
-6Lqr44Gv6KSH6ZuR57O75bel5a2m44KE5Lq65bel55+l6IO944Gr44Gh44Gq44KT44Gg44OG44O844Oe
-44Gr6IiI5ZGz44GM44GC44Gj44Gm44CB5Lit44Gn44KC44CM54m55a6a5a++6LGh6ICF44Gu5L2c5qWt
-44KS5pSv5o+044GZ44KL5oqA6KGT44KS44Gp44GG5a6f54++44GZ44KL44GL44CN44Go44GE44GG6KaW
-54K544Gn54mp5LqL44KS5o2J44GI44KL44GT44Go44GM5aSa44GE44Gn44GZ44CC5L6L44GI44Gw5paH
-5pu444KS6KaB57SE44GZ44KL44Gr44GX44Gm44KC44CB5bCC6ZaA5YiG6YeO44Gu6Zmi55Sf44Os44OZ
-44Or44KS5oOz5a6a44GZ44KL44Gu44GL44CB6auY5qCh55Sf5ZCR44GR44Gq44Gu44GL44CC5a++6LGh
-6ICF5q+O44Gr44Ki44Km44OI44OX44OD44OI44GM5aSJ44KP44KL44Gu44Gv5b2T54S244Gn44GZ44GX
-44CB44Gd44KC44Gd44KC5a++6LGh6ICF44Gu6KaB5rGC44KE5oSP5Zuz44KS44Gp44GG5rGy44G/5Y+W
-44KL44Gu44GL44CB44Go44GE44Gj44Gf44GT44Go44Gr6IiI5ZGz44GM44GC44KK44G+44GZ77yI77yd
-44Gd44GG44GE44GG5pa56Z2i44Gn5oyH5bCO44GZ44KL5YK+5ZCR44GM5by344GE77yJ44CC44KI44KK
-5YW35L2T55qE44Gq5LqL5L6L44Gr44Gk44GE44Gm44Gv44CB56CU56m25a6k6YWN5bGe5biM5pyb6ICF
-5ZCR44GR6LOH5paZ44KS6KaX44GE44Gm44G/44Gm44GP44Gg44GV44GE44CCERHigKjjgIDlrabnlJ/n
-oJTnqbblrqTvvIjlt6UxLTcxMu+8ieOBq+WHuuWQkeOBhOOBpuWFiOi8qeOCieOBi+OCieOBguOCiuOB
-ruOBvuOBvuOBruipseOCkuiBnuOBhOOBpuOBv+OCi+OBruOCguOCquOCueOCueODoeOBl+OBvuOBme+8
-gQ
-</string>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="~ 概要 ~" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fSZ-ka-iYM">
+                                <rect key="frame" x="158" y="257" width="429" height="81"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <color key="textColor" red="1" green="0.49327188729999999" blue="0.47399842739999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="~ 研究テーマ ~" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Wg-ox-3xW">
+                                <rect key="frame" x="181" y="454" width="429" height="81"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <color key="textColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FQU-Pq-A7U">
+                                <rect key="frame" x="35" y="554" width="701" height="398"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <string key="text">・WWWコンテンツの知的処理
+
+・コンピュータとのコミュニケーションを通した世界観の共有方法について
+
+・碁を通した知的行動のモデル化
+
+など</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -662,26 +830,38 @@ gQ
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="3Xg-iC-B9Z">
-                                <rect key="frame" x="38" y="228" width="693" height="642"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Deep Learning や深層強化学習などの機械学習技術を活用した人工知能分野の研究・開発" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="M8P-WO-Bbl">
+                                <rect key="frame" x="29" y="346" width="701" height="131"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <string key="text" base64-UTF8="YES">
-44CARGVlcCBMZWFybmluZyDjgoTmt7HlsaTlvLfljJblrabnv5Ljgarjganjga7mqZ/morDlrabnv5Lm
-ioDooZPjgpLmtLvnlKjjgZfjgZ/kurrlt6Xnn6Xog73liIbph47jga7noJTnqbbjg7vplovnmbrjgpLo
-oYzjgarjgaPjgabjgYTjgb7jgZnjgIIK44CA5YW35L2T55qE44Gr44Gv44CB6KGo5oOF562J44Gu4oCd
-6aGU4oCd6KqN6K2Y44Go44Gd44Gu5oOF5aCx44Gr5Z+644Gl44GP5Lq644Gu54q25oWL5o6o5a6a44CB
-5Lya6K2w562J44Gu5Lq644Gu55+l55qE5rS75YuV44KS5pSv5o+044GZ44KL44OG44Kt44K544OI44Oe
-44Kk44OL44Oz44Kw5oqA6KGT44Gu6ZaL55m644CB5rex5bGk5by35YyW5a2m57+S44KS55So44GE44Gf
-44Kq44O844OX44Oz44OJ44Oh44Kk44Oz55Kw5aKD5LiL44Gn44Gu6KGM5YuV542y5b6X44KE44Gd44Gu
-5a2m57+S44OX44Ot44K744K544Gn44Gu5rOo6KaW54K55YiG5p6Q5pa55rOV44Gq44Gp44KS5Lit5b+D
-44Gr5qmf5qKw5a2m57+S44Gu5Z+656SO5oqA6KGT44KE5b+c55So56CU56m244Gr5Y+W44KK57WE44KT
-44Gn44GE44G+44GZ44CCDREgIOOBvuOBn+OAgeecjOWGheS8gealreOBqERlZXAgTGVhcm5pbmfjgpLm
-tLvnlKjjgZfjgZ/lhbHlkIznoJTnqbbjgoLooYzjgarjgaPjgabjgYTjgb7jgZnjgILljZLmpa3noJTn
-qbbjgafjga/mspbnuITpq5jlsILjgajjga7kuqTmtYHkvJrjgpLpgJrjgZjjgablhoXlrrnjga7lhYXl
-rp/jgpLjga/jgYvjgorjgIHlpKflrabpmaLjga7pgLLlrablvozjgavjga/lrabkvJrmtLvli5XjgpLn
-qY3mpbXnmoTjgavooYzjgYTjgb7jgZnjgII
-</string>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="~ 概要 ~" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yKb-cF-Ng8">
+                                <rect key="frame" x="167" y="257" width="429" height="81"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <color key="textColor" red="1" green="0.49327188729999999" blue="0.47399842739999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="~ 研究テーマ ~" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uHZ-0d-rjh">
+                                <rect key="frame" x="190" y="454" width="429" height="81"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <color key="textColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PSv-pM-Cxv">
+                                <rect key="frame" x="44" y="554" width="701" height="398"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <string key="text">・機械学習による表情認識と人の状態推定
+
+・機械学習による微妙な表情変化の認識
+
+・オープンドメイン下での深層強化学習のプロセス可視化
+
+など</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -732,6 +912,40 @@ qY3mpbXnmoTjgavooYzjgYTjgb7jgZnjgII
                                 <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="現実世界の映像等にコンピュータの情報を重ねて表示することで直感的にわかりやすい情報提示を行うシステムである拡張現実 (AR）に関連する研究" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uwX-wb-0b5">
+                                <rect key="frame" x="34" y="315" width="701" height="169"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="~ 概要 ~" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0ZJ-WX-1Li">
+                                <rect key="frame" x="170" y="241" width="429" height="81"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <color key="textColor" red="1" green="0.49327188729999999" blue="0.47399842739999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5C4-1t-tfb">
+                                <rect key="frame" x="38" y="542" width="701" height="398"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <string key="text">・拡張現実感のための自己位置姿勢推定に関する研究
+
+・マルチモーダル広域ミクロ交通シミュレータの開発
+
+
+など</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="~ 研究テーマ ~" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DgD-Ka-7qh">
+                                <rect key="frame" x="190" y="472" width="429" height="81"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <color key="textColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="KwS-ib-lAu"/>
@@ -779,14 +993,41 @@ qY3mpbXnmoTjgavooYzjgYTjgb7jgZnjgII
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="uzh-lK-P4d">
-                                <rect key="frame" x="38" y="201" width="693" height="642"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="自然現象・社会現象・人間行動・その他様々な事象の発現に関する数理モデルの推測を研究する" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZVe-85-s57">
+                                <rect key="frame" x="27" y="346" width="701" height="131"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <string key="text">情報統計研究室では，自然現象・社会現象・人間行動・その他様々な事象の発現に関する数理モデルの推測を研究テーマとしています。事象を構成する要因を抽出し，それらの関係を実験や調査などにより収集されたデータから推測していきます。また、生成されたモデルをもとに科学的仮説を統計的仮説に置き換え、その妥当性を検証するシステムを構築します。言い換えると、事象発現のメカニズムを明確にするための方法を開発しているとも言えます。データ・サイエンティストになるために必要なスキルであるデータ解析能力を身につけることができます。</string>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="~ 研究テーマ ~" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pQI-9Y-cGN">
+                                <rect key="frame" x="188" y="454" width="429" height="81"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <color key="textColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IW6-pO-zF2">
+                                <rect key="frame" x="42" y="554" width="701" height="398"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <string key="text">・類似性や非球状分布に対するクラスタリング手法開発
+
+・DNA配列の高精度アセンブル手法開発
+
+・多重目的関数最適化としてのツアーガイド割り当て問題解法
+
+など</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="~ 概要 ~" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ijH-tv-JBX">
+                                <rect key="frame" x="168" y="257" width="429" height="81"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <color key="textColor" red="1" green="0.49327188729999999" blue="0.47399842739999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="xPd-Ug-LCH"/>
@@ -827,6 +1068,41 @@ qY3mpbXnmoTjgavooYzjgYTjgb7jgZnjgII
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="ドローンなどを利用した通信技術やネットワークのモデリングなど" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ty7-bV-UAU">
+                                <rect key="frame" x="32" y="326" width="701" height="131"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="~ 概要 ~" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bNa-0n-FsM">
+                                <rect key="frame" x="173" y="237" width="429" height="81"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <color key="textColor" red="1" green="0.49327188729999999" blue="0.47399842739999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="~ 研究テーマ ~" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FTI-8M-xQr">
+                                <rect key="frame" x="193" y="434" width="429" height="81"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <color key="textColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VOV-vo-gzK">
+                                <rect key="frame" x="47" y="534" width="701" height="398"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <string key="text">・確率論的同定手法を用いたデータマイニングに関する研究
+
+・ミリ波帯無線通信における降雨減衰特性の解析
+
+・ネットワークのモデリングと制御
+
+など</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="0o3-Qu-SeD"/>
@@ -874,12 +1150,38 @@ qY3mpbXnmoTjgavooYzjgYTjgb7jgZnjgII
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="NVd-iK-Ijc">
-                                <rect key="frame" x="38" y="227" width="693" height="642"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="生き物の「動き方」を通して理解し、工学に応用することを目指しています。" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vFc-xq-hR2">
+                                <rect key="frame" x="14" y="363" width="701" height="131"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <string key="text">　(1) 生き物の「動き方」を研究しています。具体的には単細胞生物の学習能や形態形成の物理的な仕組みを研究しています。生物物理学・動物行動学・情報科学・数理科学・複雑系科学などの様々な学問分野を広く学びながら、生き物の「動き方」を探究できます。
-　(2) 生き物の動き方の仕組みを工学に応用することを目指した研究開発を行っています。具体的には、福祉分野や生理心理学をターゲットに、ヒトがどのように動くと身体への負担が小さくなるのか、どのような支援デバイスがあると動きを効率よく学習できるのかを研究しています。ハードウェアからソフトウェアまでの幅広い知識を身に着けながら人にやさしいモノづくりに取り組めます。</string>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="~ 概要 ~" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l7e-F0-Uht">
+                                <rect key="frame" x="152" y="274" width="429" height="81"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <color key="textColor" red="1" green="0.49327188729999999" blue="0.47399842739999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="~ 研究テーマ ~" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CT4-LP-vc2">
+                                <rect key="frame" x="175" y="471" width="429" height="81"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <color key="textColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EDL-Wo-40k">
+                                <rect key="frame" x="29" y="571" width="701" height="398"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <string key="text">・単細胞生物の空間学習能の物理メカニズム
+
+・単細胞生物真正粘菌変形体の行動や形態形成の物理メカニズム
+
+・車椅子利用者の座位における身体的負担を軽減するデバイスの開発
+
+など</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
