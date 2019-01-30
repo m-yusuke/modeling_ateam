@@ -207,18 +207,27 @@ extension DiagnosisViewController: CheckboxDelegate {
             appDelegate.result["akamine"]! -= 2
             appDelegate.result["nagayama"]! -= 1
             appDelegate.result["nakamura"]! -= 1
+            for (key,value) in appDelegate.result {
+                print(key,appDelegate.result[key]!)
+            }
             break
         case SepCheckbox:
             appDelegate.result["tamaki"]! -= 3
             appDelegate.result["kono"]! -= 2
             appDelegate.result["nakamura"]! -= 2
             appDelegate.result["yoshida"]! -= 2
+            for (key,value) in appDelegate.result {
+                print(key,appDelegate.result[key]!)
+            }
             break
         case ComSysCheckbox:
             appDelegate.result["kang"]! -= 2
             appDelegate.result["wada"]! -= 3
             appDelegate.result["yoshida"]! -= 1
             appDelegate.result["kono"]! -= 1
+            for (key,value) in appDelegate.result {
+                print(key,appDelegate.result[key]!)
+            }
             break
         case AlgCheckbox:
             appDelegate.result["nakamura"]! -= 2
@@ -237,6 +246,9 @@ extension DiagnosisViewController: CheckboxDelegate {
             break
         case DBCheckbox:
             appDelegate.result["nagayama"]! -= 3
+            for (key,value) in appDelegate.result {
+                print(key,appDelegate.result[key]!)
+            }
             break
         case DataScienceCheckbox:
             appDelegate.result["okazaki"]! -= 3
@@ -245,6 +257,9 @@ extension DiagnosisViewController: CheckboxDelegate {
             appDelegate.result["akamine"]! -= 2
             appDelegate.result["yamada"]! -= 2
             appDelegate.result["endo"]! -= 2
+            for (key,value) in appDelegate.result {
+                print(key,appDelegate.result[key]!)
+            }
             break
         case InfoCheckbox:
             appDelegate.result["nagatani"]! -= 3
@@ -259,23 +274,35 @@ extension DiagnosisViewController: CheckboxDelegate {
             appDelegate.result["yoshida"]! -= 2
             appDelegate.result["kang"]! -= 2
             appDelegate.result["kono"]! -= 2
+            for (key,value) in appDelegate.result {
+                print(key,appDelegate.result[key]!)
+            }
             break
         case MathIICheckbox:
             appDelegate.result["endo"]! -= 2
             appDelegate.result["wada"]! -= 2
             appDelegate.result["nakamura"]! -= 2
             appDelegate.result["miyazato"]! -= 2
+            for (key,value) in appDelegate.result {
+                print(key,appDelegate.result[key]!)
+            }
             break
         case MathIIICheckbox:
             appDelegate.result["kang"]! -= 2
             appDelegate.result["wada"]! -= 2
             appDelegate.result["miyazato"]! -= 2
+            for (key,value) in appDelegate.result {
+                print(key,appDelegate.result[key]!)
+            }
             break
         case AICheckbox:
             appDelegate.result["endo"]! -= 3
             appDelegate.result["yamada"]! -= 2
             appDelegate.result["NAL"]! -= 2
             appDelegate.result["akamine"]! -= 2
+            for (key,value) in appDelegate.result {
+                print(key,appDelegate.result[key]!)
+            }
             break
         default:
             break
