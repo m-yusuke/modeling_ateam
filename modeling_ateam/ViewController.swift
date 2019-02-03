@@ -29,6 +29,9 @@ class ViewController: UIViewController {
         for key in appDelegate.Question2status.keys {
             appDelegate.Question2status[key] = false
         }
+        for key in appDelegate.Question3status.keys {
+            appDelegate.Question3status[key] = false
+        }
         let storyboard: UIStoryboard = UIStoryboard(name: "diagnosis", bundle: nil)
         let thirdView = storyboard.instantiateViewController(withIdentifier:"diagnosis") as! DiagnosisViewController
         self.present(thirdView, animated: true, completion: nil)

@@ -10,12 +10,11 @@ import UIKit
 
 class DiagnosisViewController: UIViewController, UITextFieldDelegate {
 
-
     @IBAction func Back(_ sender: Any) {
         self.dismiss(animated:true, completion: nil)
     }
+    
     @IBOutlet weak var ProgCheckbox: CCheckbox!
-
     @IBOutlet weak var LinerCheckbox: CCheckbox!
     @IBOutlet weak var SepCheckbox: CCheckbox!
     @IBOutlet weak var ComSysCheckbox: CCheckbox!
@@ -28,6 +27,7 @@ class DiagnosisViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var MathIICheckbox: CCheckbox!
     @IBOutlet weak var MathIIICheckbox: CCheckbox!
     @IBOutlet weak var AICheckbox: CCheckbox!
+    
     @IBAction func Next(_ sender: Any) {
         performSegue(withIdentifier: "toTwo", sender: self)
     }
@@ -38,7 +38,6 @@ class DiagnosisViewController: UIViewController, UITextFieldDelegate {
         let appDelegate = UIApplication.shared.delegate as! AppDelegate
         
         ProgCheckbox.delegate = self
-        print(ProgCheckbox.delegate!)
         ProgCheckbox.animation = .showHideTransitionViews
         ProgCheckbox.isCheckboxSelected = appDelegate.Question1status["prog"]!
 
@@ -359,6 +358,7 @@ class QuestionTwoViewController: UIViewController{
     @IBOutlet weak var KunitaCheckbox: CCheckbox!
     @IBOutlet weak var AkamineCheckbox: CCheckbox!
     @IBOutlet weak var MiyazatoCheckbox: CCheckbox!
+    
     @IBAction func Bottonturn(_ sender: Any) {       //Main2.storyboardへの戻るボタン
         self.dismiss(animated:true, completion: nil)
     }
@@ -471,10 +471,207 @@ class QuestionThreeViewController: UIViewController{
     @IBAction func Bottonturn(_ sender: Any) {       //Main2.storyboardへの戻るボタン
         self.dismiss(animated:true, completion: nil)
     }
+    
+    @IBOutlet weak var PythonCheckbox: CCheckbox!
+    @IBOutlet weak var PerlCheckbox: CCheckbox!
+    @IBOutlet weak var ClangCheckbox: CCheckbox!
+    @IBOutlet weak var PHPCheckbox: CCheckbox!
+    @IBOutlet weak var VHDLCheckbox: CCheckbox!
+    @IBOutlet weak var RlangCheckbox: CCheckbox!
+    @IBOutlet weak var JavaCheckbox: CCheckbox!
+    @IBOutlet weak var AssemblyCheckbox: CCheckbox!
+    @IBOutlet weak var AgdaCheckbox: CCheckbox!
+    @IBOutlet weak var HaskellCheckbox: CCheckbox!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let appDelegate = UIApplication.shared.delegate as! AppDelegate
+        
+        PythonCheckbox.delegate = self
+        PythonCheckbox.animation = .showHideTransitionViews
+        PythonCheckbox.isCheckboxSelected = appDelegate.Question3status["python"]!
+        
+        PerlCheckbox.delegate = self
+        PerlCheckbox.animation = .showHideTransitionViews
+        PerlCheckbox.isCheckboxSelected = appDelegate.Question3status["perl"]!
+        
+        ClangCheckbox.delegate = self
+        ClangCheckbox.animation = .showHideTransitionViews
+        ClangCheckbox.isCheckboxSelected = appDelegate.Question3status["clang"]!
+        
+        PHPCheckbox.delegate = self
+        PHPCheckbox.animation = .showHideTransitionViews
+        PHPCheckbox.isCheckboxSelected = appDelegate.Question3status["php"]!
+        
+        VHDLCheckbox.delegate = self
+        VHDLCheckbox.animation = .showHideTransitionViews
+        VHDLCheckbox.isCheckboxSelected = appDelegate.Question3status["vhdl"]!
+        
+        RlangCheckbox.delegate = self
+        RlangCheckbox.animation = .showHideTransitionViews
+        RlangCheckbox.isCheckboxSelected = appDelegate.Question3status["rlang"]!
+        
+        JavaCheckbox.delegate = self
+        JavaCheckbox.animation = .showHideTransitionViews
+        JavaCheckbox.isCheckboxSelected = appDelegate.Question3status["java"]!
+        
+        AssemblyCheckbox.delegate = self
+        AssemblyCheckbox.animation = .showHideTransitionViews
+        AssemblyCheckbox.isCheckboxSelected = appDelegate.Question3status["assembly"]!
+        
+        AgdaCheckbox.delegate = self
+        AgdaCheckbox.animation = .showHideTransitionViews
+        AgdaCheckbox.isCheckboxSelected = appDelegate.Question3status["agda"]!
+        
+        HaskellCheckbox.delegate = self
+        HaskellCheckbox.animation = .showHideTransitionViews
+        HaskellCheckbox.isCheckboxSelected = appDelegate.Question3status["haskell"]!
     }
 }
+
+extension QuestionThreeViewController: CheckboxDelegate {
+    func didSelect(_ checkbox: CCheckbox) {
+        let appDelegate = UIApplication.shared.delegate as! AppDelegate
+        switch checkbox {
+        case PythonCheckbox:
+            appDelegate.result["endo"]! += 2
+            appDelegate.result["NAL"]! +=  2
+            appDelegate.result["okazaki"]! += 1
+            for key in appDelegate.result.keys {
+                if key == "kono" || key == "yoshida" || key == "wada" || key == "nagatani" {
+                    continue
+                }
+                appDelegate.result[key]! += 1
+            }
+            appDelegate.Question3status["python"]! = true
+            break
+        case PerlCheckbox:
+            appDelegate.result["kono"]! += 3
+            appDelegate.Question3status["perl"]! = true
+            break
+        case ClangCheckbox:
+            appDelegate.result["kono"]! += 1
+            appDelegate.result["nakamura"]! += 1
+            for key in appDelegate.result.keys {
+                appDelegate.result[key]! += 1
+            }
+            appDelegate.Question3status["clang"]! = true
+            break
+        case PHPCheckbox:
+            appDelegate.result["miyazato"]! += 1
+            appDelegate.result["akamine"]! += 1
+            appDelegate.Question3status["php"]! = true
+            break
+        case VHDLCheckbox:
+            appDelegate.result["yoshida"]! += 3
+            appDelegate.result["wada"]! += 3
+            appDelegate.Question3status["vhdl"]! = true
+            break
+        case RlangCheckbox:
+            appDelegate.result["okazaki"]! += 3
+            appDelegate.result["endo"]! += 1
+            appDelegate.result["NAL"]! += 1
+            appDelegate.Question3status["rlang"]! = true
+            break
+        case JavaCheckbox:
+            appDelegate.result["NAL"]! += 1
+            appDelegate.result["yamada"]! += 1
+            appDelegate.result["akamine"]! += 1
+            appDelegate.Question3status["java"]! = true
+            break
+        case AssemblyCheckbox:
+            appDelegate.result["yoshida"]! += 3
+            appDelegate.result["wada"]! += 3
+            appDelegate.result["kang"]! += 1
+            appDelegate.result["kono"]! += 2
+            appDelegate.Question3status["assembly"]! = true
+            break
+        case AgdaCheckbox:
+            appDelegate.result["kono"]! += 3
+            appDelegate.Question3status["agda"]! = true
+            break
+        case HaskellCheckbox:
+            appDelegate.result["kono"]! += 3
+            appDelegate.result["nakamura"]! += 3
+            appDelegate.Question3status["haskell"]! = true
+            break
+        default:
+            break
+        }
+    }
+    
+    func didDeselect(_ checkbox: CCheckbox) {
+        let appDelegate = UIApplication.shared.delegate as! AppDelegate
+        switch checkbox {
+        case PythonCheckbox:
+            appDelegate.result["endo"]! -= 2
+            appDelegate.result["NAL"]! -=  2
+            appDelegate.result["okazaki"]! -= 1
+            for key in appDelegate.result.keys {
+                if key == "kono" || key == "yoshida" || key == "wada" || key == "nagatani" {
+                    continue
+                }
+                appDelegate.result[key]! -= 1
+            }
+            appDelegate.Question3status["python"]! = false
+            break
+        case PerlCheckbox:
+            appDelegate.result["kono"]! -= 3
+            appDelegate.Question3status["perl"]! = false
+            break
+        case ClangCheckbox:
+            appDelegate.result["kono"]! -= 1
+            appDelegate.result["nakamura"]! -= 1
+            for key in appDelegate.result.keys {
+                appDelegate.result[key]! -= 1
+            }
+            appDelegate.Question2status["akamine"]! = false
+            break
+        case PHPCheckbox:
+            appDelegate.result["miyazato"]! -= 1
+            appDelegate.result["akamine"]! -= 1
+            appDelegate.Question3status["php"]! = false
+            break
+        case VHDLCheckbox:
+            appDelegate.result["yoshida"]! -= 3
+            appDelegate.result["wada"]! -= 3
+            appDelegate.Question3status["vhdl"]! = false
+            break
+        case RlangCheckbox:
+            appDelegate.result["okazaki"]! -= 3
+            appDelegate.result["endo"]! -= 1
+            appDelegate.result["NAL"]! -= 1
+            appDelegate.Question3status["rlang"]! = false
+            break
+        case JavaCheckbox:
+            appDelegate.result["NAL"]! -= 1
+            appDelegate.result["yamada"]! -= 1
+            appDelegate.result["akamine"]! -= 1
+            appDelegate.Question3status["java"]! = false
+            break
+        case AssemblyCheckbox:
+            appDelegate.result["yoshida"]! -= 3
+            appDelegate.result["wada"]! -= 3
+            appDelegate.result["kang"]! -= 1
+            appDelegate.result["kono"]! -= 2
+            appDelegate.Question3status["assembly"]! = false
+            break
+        case AgdaCheckbox:
+            appDelegate.result["kono"]! -= 3
+            appDelegate.Question3status["agda"]! = false
+            break
+        case HaskellCheckbox:
+            appDelegate.result["kono"]! -= 3
+            appDelegate.result["nakamura"]! -= 3
+            appDelegate.Question3status["haskell"]! = false
+            break
+        default:
+            break
+        }
+    }
+}
+
 
 class QuestionFourViewController: UIViewController{
     @IBAction func Bottonturn(_ sender: Any) {       //Main2.storyboardへの戻るボタン
