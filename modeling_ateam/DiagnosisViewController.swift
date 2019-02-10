@@ -27,6 +27,7 @@ class DiagnosisViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var MathIICheckbox: CCheckbox!
     @IBOutlet weak var MathIIICheckbox: CCheckbox!
     @IBOutlet weak var AICheckbox: CCheckbox!
+    @IBOutlet weak var DigSignalCheckbox: CCheckbox!
     
     @IBAction func Next(_ sender: Any) {
         performSegue(withIdentifier: "toTwo", sender: self)
@@ -89,6 +90,10 @@ class DiagnosisViewController: UIViewController, UITextFieldDelegate {
         AICheckbox.animation = .showHideTransitionViews
         AICheckbox.isCheckboxSelected = appDelegate.Question1status["ai"]!
         
+        DigSignalCheckbox.delegate = self
+        DigSignalCheckbox.animation = .showHideTransitionViews
+        DigSignalCheckbox.isCheckboxSelected = appDelegate.Question1status["digsignal"]!
+        
     }
 
     /*
@@ -108,7 +113,6 @@ extension DiagnosisViewController: CheckboxDelegate {
         let appDelegate = UIApplication.shared.delegate as! AppDelegate
         switch checkbox {
         case ProgCheckbox:
-            print("ProgCheckbox selected")
             appDelegate.result["akamine"]! += 1
             appDelegate.result["yamada"]! +=  1
             appDelegate.result["NAL"]! += 2
@@ -128,6 +132,9 @@ extension DiagnosisViewController: CheckboxDelegate {
             appDelegate.result["nagayama"]! += 1
             appDelegate.result["nakamura"]! += 1
             appDelegate.Question1status["liner"]! = true
+            for key in appDelegate.result.keys {
+                print(key,appDelegate.result[key]!)
+            }
             break
         case SepCheckbox:
             appDelegate.result["tamaki"]! += 3
@@ -135,6 +142,9 @@ extension DiagnosisViewController: CheckboxDelegate {
             appDelegate.result["nakamura"]! += 2
             appDelegate.result["yoshida"]! += 2
             appDelegate.Question1status["sep"]! = true
+            for key in appDelegate.result.keys {
+                print(key,appDelegate.result[key]!)
+            }
             break
         case ComSysCheckbox:
             appDelegate.result["kang"]! += 2
@@ -142,6 +152,9 @@ extension DiagnosisViewController: CheckboxDelegate {
             appDelegate.result["yoshida"]! += 1
             appDelegate.result["kono"]! += 1
             appDelegate.Question1status["comsys"]! = true
+            for key in appDelegate.result.keys {
+                print(key,appDelegate.result[key]!)
+            }
             break
         case AlgCheckbox:
             appDelegate.result["nakamura"]! += 2
@@ -163,6 +176,9 @@ extension DiagnosisViewController: CheckboxDelegate {
         case DBCheckbox:
             appDelegate.result["nagayama"]! += 3
             appDelegate.Question1status["db"]! = true
+            for key in appDelegate.result.keys {
+                print(key,appDelegate.result[key]!)
+            }
             break
         case DataScienceCheckbox:
             appDelegate.result["okazaki"]! += 3
@@ -172,6 +188,9 @@ extension DiagnosisViewController: CheckboxDelegate {
             appDelegate.result["yamada"]! += 2
             appDelegate.result["endo"]! += 2
             appDelegate.Question1status["datascience"]! = true
+            for key in appDelegate.result.keys {
+                print(key,appDelegate.result[key]!)
+            }
             break
         case InfoCheckbox:
             appDelegate.result["nagatani"]! += 3
@@ -188,6 +207,9 @@ extension DiagnosisViewController: CheckboxDelegate {
             appDelegate.result["kang"]! += 2
             appDelegate.result["kono"]! += 2
             appDelegate.Question1status["arch"]! = true
+            for key in appDelegate.result.keys {
+                print(key,appDelegate.result[key]!)
+            }
             break
         case MathIICheckbox:
             appDelegate.result["endo"]! += 2
@@ -195,12 +217,18 @@ extension DiagnosisViewController: CheckboxDelegate {
             appDelegate.result["nakamura"]! += 2
             appDelegate.result["miyazato"]! += 2
             appDelegate.Question1status["mathii"]! = true
+            for key in appDelegate.result.keys {
+                print(key,appDelegate.result[key]!)
+            }
             break
         case MathIIICheckbox:
             appDelegate.result["kang"]! += 2
             appDelegate.result["wada"]! += 2
             appDelegate.result["miyazato"]! += 2
             appDelegate.Question1status["mathiii"]! = true
+            for key in appDelegate.result.keys {
+                print(key,appDelegate.result[key]!)
+            }
             break
         case AICheckbox:
             appDelegate.result["endo"]! += 3
@@ -208,6 +236,17 @@ extension DiagnosisViewController: CheckboxDelegate {
             appDelegate.result["NAL"]! += 2
             appDelegate.result["akamine"]! += 2
             appDelegate.Question1status["ai"]! = true
+            for key in appDelegate.result.keys {
+                print(key,appDelegate.result[key]!)
+            }
+            break
+        case DigSignalCheckbox:
+            appDelegate.result["kang"]! += 3
+            appDelegate.result["wada"]! += 1
+            appDelegate.Question1status["digsignal"]! = true
+            for key in appDelegate.result.keys {
+                print(key,appDelegate.result[key]!)
+            }
             break
         default:
             break
@@ -218,7 +257,6 @@ extension DiagnosisViewController: CheckboxDelegate {
         let appDelegate = UIApplication.shared.delegate as! AppDelegate
         switch checkbox {
         case ProgCheckbox:
-            print("ProgCheckbox selected")
             appDelegate.result["akamine"]! -= 1
             appDelegate.result["yamada"]! -=  1
             appDelegate.result["NAL"]! -= 2
@@ -344,6 +382,14 @@ extension DiagnosisViewController: CheckboxDelegate {
                 print(key,appDelegate.result[key]!)
             }
             break
+        case DigSignalCheckbox:
+            appDelegate.result["kang"]! -= 3
+            appDelegate.result["wada"]! -= 1
+            appDelegate.Question1status["digsignal"]! = false
+            for key in appDelegate.result.keys {
+                print(key,appDelegate.result[key]!)
+            }
+            break
         default:
             break
         }
@@ -390,19 +436,21 @@ extension QuestionTwoViewController: CheckboxDelegate {
         let appDelegate = UIApplication.shared.delegate as! AppDelegate
         switch checkbox {
         case YoshidaCheckbox:
-            print("YoshidaCheckbox selected")
             appDelegate.result["yoshida"]! += 3
             appDelegate.result["wada"]! +=  2
             appDelegate.result["kang"]! += 1
             appDelegate.Question2status["yoshida"]! = true
+            for key in appDelegate.result.keys {
+                print(key,appDelegate.result[key]!)
+            }
             break
         case KunitaCheckbox:
             appDelegate.result["kunita"]! += 2
+            appDelegate.Question2status["kunita"]! = true
             for key in appDelegate.result.keys {
                 appDelegate.result[key]! += 1
                 print(key,appDelegate.result[key]!)
             }
-            appDelegate.Question2status["kunita"]! = true
             break
         case AkamineCheckbox:
             appDelegate.result["akamine"]! += 3
@@ -410,14 +458,17 @@ extension QuestionTwoViewController: CheckboxDelegate {
             appDelegate.result["nakamura"]! += 1
             appDelegate.result["NAL"]! += 1
             appDelegate.Question2status["akamine"]! = true
+            for key in appDelegate.result.keys {
+                print(key,appDelegate.result[key]!)
+            }
             break
         case MiyazatoCheckbox:
             appDelegate.result["miyazato"]! += 2
+            appDelegate.Question2status["miyazato"]! = true
             for key in appDelegate.result.keys {
                 appDelegate.result[key]! += 1
                 print(key,appDelegate.result[key]!)
             }
-            appDelegate.Question2status["miyazato"]! = true
             break
         default:
             break
@@ -428,19 +479,21 @@ extension QuestionTwoViewController: CheckboxDelegate {
         let appDelegate = UIApplication.shared.delegate as! AppDelegate
         switch checkbox {
         case YoshidaCheckbox:
-            print("YoshidaCheckbox selected")
             appDelegate.result["yoshida"]! -= 3
             appDelegate.result["wada"]! -=  2
             appDelegate.result["kang"]! -= 1
             appDelegate.Question2status["yoshida"]! = false
+            for key in appDelegate.result.keys {
+                print(key,appDelegate.result[key]!)
+            }
             break
         case KunitaCheckbox:
             appDelegate.result["kunita"]! -= 2
+            appDelegate.Question2status["kunita"]! = false
             for key in appDelegate.result.keys {
                 appDelegate.result[key]! -= 1
                 print(key,appDelegate.result[key]!)
             }
-            appDelegate.Question2status["kunita"]! = false
             break
         case AkamineCheckbox:
             appDelegate.result["akamine"]! -= 3
@@ -448,14 +501,17 @@ extension QuestionTwoViewController: CheckboxDelegate {
             appDelegate.result["nakamura"]! -= 1
             appDelegate.result["NAL"]! -= 1
             appDelegate.Question2status["akamine"]! = false
+            for key in appDelegate.result.keys {
+                print(key,appDelegate.result[key]!)
+            }
             break
         case MiyazatoCheckbox:
             appDelegate.result["miyazato"]! -= 2
+            appDelegate.Question2status["miyazato"]! = false
             for key in appDelegate.result.keys {
                 appDelegate.result[key]! -= 1
                 print(key,appDelegate.result[key]!)
             }
-            appDelegate.Question2status["miyazato"]! = false
             break
         default:
             break
@@ -538,47 +594,66 @@ extension QuestionThreeViewController: CheckboxDelegate {
             appDelegate.result["endo"]! += 2
             appDelegate.result["NAL"]! +=  2
             appDelegate.result["okazaki"]! += 1
+            appDelegate.Question3status["python"]! = true
             for key in appDelegate.result.keys {
                 if key == "kono" || key == "yoshida" || key == "wada" || key == "nagatani" {
                     continue
                 }
                 appDelegate.result[key]! += 1
             }
-            appDelegate.Question3status["python"]! = true
+            for key in appDelegate.result.keys {
+                print(key,appDelegate.result[key]!)
+            }
             break
         case PerlCheckbox:
             appDelegate.result["kono"]! += 3
             appDelegate.Question3status["perl"]! = true
+            for key in appDelegate.result.keys {
+                print(key,appDelegate.result[key]!)
+            }
             break
         case ClangCheckbox:
             appDelegate.result["kono"]! += 1
             appDelegate.result["nakamura"]! += 1
+            appDelegate.Question3status["clang"]! = true
             for key in appDelegate.result.keys {
                 appDelegate.result[key]! += 1
+                print(key,appDelegate.result[key]!)
             }
-            appDelegate.Question3status["clang"]! = true
             break
         case PHPCheckbox:
             appDelegate.result["miyazato"]! += 1
             appDelegate.result["akamine"]! += 1
             appDelegate.Question3status["php"]! = true
+            for key in appDelegate.result.keys {
+                print(key,appDelegate.result[key]!)
+            }
             break
         case VHDLCheckbox:
             appDelegate.result["yoshida"]! += 3
             appDelegate.result["wada"]! += 3
             appDelegate.Question3status["vhdl"]! = true
+            for key in appDelegate.result.keys {
+                print(key,appDelegate.result[key]!)
+            }
             break
         case RlangCheckbox:
             appDelegate.result["okazaki"]! += 3
             appDelegate.result["endo"]! += 1
             appDelegate.result["NAL"]! += 1
             appDelegate.Question3status["rlang"]! = true
+            for key in appDelegate.result.keys {
+                print(key,appDelegate.result[key]!)
+            }
             break
         case JavaCheckbox:
             appDelegate.result["NAL"]! += 1
             appDelegate.result["yamada"]! += 1
             appDelegate.result["akamine"]! += 1
             appDelegate.Question3status["java"]! = true
+            for key in appDelegate.result.keys {
+                print(key,appDelegate.result[key]!)
+            }
             break
         case AssemblyCheckbox:
             appDelegate.result["yoshida"]! += 3
@@ -586,15 +661,24 @@ extension QuestionThreeViewController: CheckboxDelegate {
             appDelegate.result["kang"]! += 1
             appDelegate.result["kono"]! += 2
             appDelegate.Question3status["assembly"]! = true
+            for key in appDelegate.result.keys {
+                print(key,appDelegate.result[key]!)
+            }
             break
         case AgdaCheckbox:
             appDelegate.result["kono"]! += 3
             appDelegate.Question3status["agda"]! = true
+            for key in appDelegate.result.keys {
+                print(key,appDelegate.result[key]!)
+            }
             break
         case HaskellCheckbox:
             appDelegate.result["kono"]! += 3
             appDelegate.result["nakamura"]! += 3
             appDelegate.Question3status["haskell"]! = true
+            for key in appDelegate.result.keys {
+                print(key,appDelegate.result[key]!)
+            }
             break
         default:
             break
@@ -608,47 +692,66 @@ extension QuestionThreeViewController: CheckboxDelegate {
             appDelegate.result["endo"]! -= 2
             appDelegate.result["NAL"]! -=  2
             appDelegate.result["okazaki"]! -= 1
+            appDelegate.Question3status["python"]! = false
             for key in appDelegate.result.keys {
                 if key == "kono" || key == "yoshida" || key == "wada" || key == "nagatani" {
                     continue
                 }
                 appDelegate.result[key]! -= 1
             }
-            appDelegate.Question3status["python"]! = false
+            for key in appDelegate.result.keys {
+                print(key,appDelegate.result[key]!)
+            }
             break
         case PerlCheckbox:
             appDelegate.result["kono"]! -= 3
             appDelegate.Question3status["perl"]! = false
+            for key in appDelegate.result.keys {
+                print(key,appDelegate.result[key]!)
+            }
             break
         case ClangCheckbox:
             appDelegate.result["kono"]! -= 1
             appDelegate.result["nakamura"]! -= 1
+            appDelegate.Question2status["akamine"]! = false
             for key in appDelegate.result.keys {
                 appDelegate.result[key]! -= 1
+                print(key,appDelegate.result[key]!)
             }
-            appDelegate.Question2status["akamine"]! = false
             break
         case PHPCheckbox:
             appDelegate.result["miyazato"]! -= 1
             appDelegate.result["akamine"]! -= 1
             appDelegate.Question3status["php"]! = false
+            for key in appDelegate.result.keys {
+                print(key,appDelegate.result[key]!)
+            }
             break
         case VHDLCheckbox:
             appDelegate.result["yoshida"]! -= 3
             appDelegate.result["wada"]! -= 3
             appDelegate.Question3status["vhdl"]! = false
+            for key in appDelegate.result.keys {
+                print(key,appDelegate.result[key]!)
+            }
             break
         case RlangCheckbox:
             appDelegate.result["okazaki"]! -= 3
             appDelegate.result["endo"]! -= 1
             appDelegate.result["NAL"]! -= 1
             appDelegate.Question3status["rlang"]! = false
+            for key in appDelegate.result.keys {
+                print(key,appDelegate.result[key]!)
+            }
             break
         case JavaCheckbox:
             appDelegate.result["NAL"]! -= 1
             appDelegate.result["yamada"]! -= 1
             appDelegate.result["akamine"]! -= 1
             appDelegate.Question3status["java"]! = false
+            for key in appDelegate.result.keys {
+                print(key,appDelegate.result[key]!)
+            }
             break
         case AssemblyCheckbox:
             appDelegate.result["yoshida"]! -= 3
@@ -656,15 +759,24 @@ extension QuestionThreeViewController: CheckboxDelegate {
             appDelegate.result["kang"]! -= 1
             appDelegate.result["kono"]! -= 2
             appDelegate.Question3status["assembly"]! = false
+            for key in appDelegate.result.keys {
+                print(key,appDelegate.result[key]!)
+            }
             break
         case AgdaCheckbox:
             appDelegate.result["kono"]! -= 3
             appDelegate.Question3status["agda"]! = false
+            for key in appDelegate.result.keys {
+                print(key,appDelegate.result[key]!)
+            }
             break
         case HaskellCheckbox:
             appDelegate.result["kono"]! -= 3
             appDelegate.result["nakamura"]! -= 3
             appDelegate.Question3status["haskell"]! = false
+            for key in appDelegate.result.keys {
+                print(key,appDelegate.result[key]!)
+            }
             break
         default:
             break
@@ -677,8 +789,307 @@ class QuestionFourViewController: UIViewController{
     @IBAction func Bottonturn(_ sender: Any) {       //Main2.storyboardへの戻るボタン
         self.dismiss(animated:true, completion: nil)
     }
+    
+    @IBOutlet weak var SecurityCheckbox: CCheckbox!
+    @IBOutlet weak var AgricultureCheckbox: CCheckbox!
+    @IBOutlet weak var RadioCheckbox: CCheckbox!
+    @IBOutlet weak var ImgProcessingCheckbox: CCheckbox!
+    @IBOutlet weak var NLPCheckbox: CCheckbox!
+    @IBOutlet weak var ParallelCheckbox: CCheckbox!
+    @IBOutlet weak var DeepLearningCheckbox: CCheckbox!
+    @IBOutlet weak var IntelligenceRobotCheckbox: CCheckbox!
+    @IBOutlet weak var ARCheckbox: CCheckbox!
+    @IBOutlet weak var DistributeCheckbox: CCheckbox!
+    @IBOutlet weak var MathAnalysisCheckbox: CCheckbox!
+    @IBOutlet weak var CalcArchitectureCheckbox: CCheckbox!
+    @IBOutlet weak var SignalProcessingCheckbox: CCheckbox!
+    @IBOutlet weak var BiomechanicsCheckbox: CCheckbox!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let appDelegate = UIApplication.shared.delegate as! AppDelegate
+        
+        SecurityCheckbox.delegate = self
+        SecurityCheckbox.animation = .showHideTransitionViews
+        SecurityCheckbox.isCheckboxSelected = appDelegate.Question4status["security"]!
+        
+        AgricultureCheckbox.delegate = self
+        AgricultureCheckbox.animation = .showHideTransitionViews
+        AgricultureCheckbox.isCheckboxSelected = appDelegate.Question4status["agriculture"]!
+        
+        RadioCheckbox.delegate = self
+        RadioCheckbox.animation = .showHideTransitionViews
+        RadioCheckbox.isCheckboxSelected = appDelegate.Question4status["radio"]!
+        
+        ImgProcessingCheckbox.delegate = self
+        ImgProcessingCheckbox.animation = .showHideTransitionViews
+        ImgProcessingCheckbox.isCheckboxSelected = appDelegate.Question4status["img"]!
+        
+        NLPCheckbox.delegate = self
+        NLPCheckbox.animation = .showHideTransitionViews
+        NLPCheckbox.isCheckboxSelected = appDelegate.Question4status["nlp"]!
+        
+        ParallelCheckbox.delegate = self
+        ParallelCheckbox.animation = .showHideTransitionViews
+        ParallelCheckbox.isCheckboxSelected = appDelegate.Question4status["parallel"]!
+        
+        DeepLearningCheckbox.delegate = self
+        DeepLearningCheckbox.animation = .showHideTransitionViews
+        DeepLearningCheckbox.isCheckboxSelected = appDelegate.Question4status["deeplearning"]!
+        
+        IntelligenceRobotCheckbox.delegate = self
+        IntelligenceRobotCheckbox.animation = .showHideTransitionViews
+        IntelligenceRobotCheckbox.isCheckboxSelected = appDelegate.Question4status["intelligence"]!
+        
+        ARCheckbox.delegate = self
+        ARCheckbox.animation = .showHideTransitionViews
+        ARCheckbox.isCheckboxSelected = appDelegate.Question4status["ar"]!
+        
+        DistributeCheckbox.delegate = self
+        DistributeCheckbox.animation = .showHideTransitionViews
+        DistributeCheckbox.isCheckboxSelected = appDelegate.Question4status["distribute"]!
+        
+        MathAnalysisCheckbox.delegate = self
+        MathAnalysisCheckbox.animation = .showHideTransitionViews
+        MathAnalysisCheckbox.isCheckboxSelected = appDelegate.Question4status["math"]!
+        
+        CalcArchitectureCheckbox.delegate = self
+        CalcArchitectureCheckbox.animation = .showHideTransitionViews
+        CalcArchitectureCheckbox.isCheckboxSelected = appDelegate.Question4status["calc"]!
+        
+        SignalProcessingCheckbox.delegate = self
+        SignalProcessingCheckbox.animation = .showHideTransitionViews
+        SignalProcessingCheckbox.isCheckboxSelected = appDelegate.Question4status["signal"]!
+        
+        BiomechanicsCheckbox.delegate = self
+        BiomechanicsCheckbox.animation = .showHideTransitionViews
+        BiomechanicsCheckbox.isCheckboxSelected = appDelegate.Question4status["biomechanics"]!
     }
 }
 
+extension QuestionFourViewController: CheckboxDelegate {
+    func didSelect(_ checkbox: CCheckbox) {
+        let appDelegate = UIApplication.shared.delegate as! AppDelegate
+        switch checkbox {
+        case SecurityCheckbox:
+            appDelegate.result["nagatani"]! += 3
+            appDelegate.Question4status["security"]! = true
+            for key in appDelegate.result.keys {
+                print(key,appDelegate.result[key]!)
+            }
+            break
+        case AgricultureCheckbox:
+            appDelegate.result["tamaki"]! += 3
+            appDelegate.Question4status["agriculture"]! = true
+            for key in appDelegate.result.keys {
+                print(key,appDelegate.result[key]!)
+            }
+            break
+        case RadioCheckbox:
+            appDelegate.result["wada"]! += 3
+            appDelegate.result["miyazato"]! += 1
+            appDelegate.Question4status["radio"]! = true
+            for key in appDelegate.result.keys {
+                print(key,appDelegate.result[key]!)
+            }
+            break
+        case ImgProcessingCheckbox:
+            appDelegate.result["nagayama"]! += 3
+            appDelegate.result["endo"]! += 1
+            appDelegate.Question4status["img"]! = true
+            for key in appDelegate.result.keys {
+                print(key,appDelegate.result[key]!)
+            }
+            break
+        case NLPCheckbox:
+            appDelegate.result["NAL"]! += 3
+            appDelegate.result["endo"]! += 1
+            appDelegate.Question4status["nlp"]! = true
+            for key in appDelegate.result.keys {
+                print(key,appDelegate.result[key]!)
+            }
+            break
+        case ParallelCheckbox:
+            appDelegate.result["nakamura"]! += 3
+            appDelegate.Question4status["parallel"]! = true
+            for key in appDelegate.result.keys {
+                print(key,appDelegate.result[key]!)
+            }
+            break
+        case DeepLearningCheckbox:
+            appDelegate.result["endo"]! += 3
+            appDelegate.result["nagayama"]! += 1
+            appDelegate.Question4status["deeplearning"]! = true
+            for key in appDelegate.result.keys {
+                print(key,appDelegate.result[key]!)
+            }
+            break
+        case IntelligenceRobotCheckbox:
+            appDelegate.result["yamada"]! += 3
+            appDelegate.Question4status["intelligence"]! = true
+            for key in appDelegate.result.keys {
+                print(key,appDelegate.result[key]!)
+            }
+            break
+        case ARCheckbox:
+            appDelegate.result["akamine"]! += 3
+            appDelegate.Question4status["ar"]! = true
+            for key in appDelegate.result.keys {
+                print(key,appDelegate.result[key]!)
+            }
+            break
+        case DistributeCheckbox:
+            appDelegate.result["kono"]! += 3
+            appDelegate.Question4status["distribute"]! = true
+            for key in appDelegate.result.keys {
+                print(key,appDelegate.result[key]!)
+            }
+            break
+        case MathAnalysisCheckbox:
+            appDelegate.result["okazaki"]! += 3
+            appDelegate.Question4status["math"]! = true
+            for key in appDelegate.result.keys {
+                print(key,appDelegate.result[key]!)
+            }
+            break
+        case CalcArchitectureCheckbox:
+            appDelegate.result["yoshida"]! += 3
+            appDelegate.result["wada"]! += 1
+            appDelegate.Question4status["calc"]! = true
+            for key in appDelegate.result.keys {
+                print(key,appDelegate.result[key]!)
+            }
+            break
+        case SignalProcessingCheckbox:
+            appDelegate.result["kang"]! += 3
+            appDelegate.result["wada"]! += 1
+            appDelegate.Question4status["signal"]! = true
+            for key in appDelegate.result.keys {
+                print(key,appDelegate.result[key]!)
+            }
+            break
+        case BiomechanicsCheckbox:
+            appDelegate.result["kunita"]! += 3
+            appDelegate.Question4status["biomechanics"]! = true
+            for key in appDelegate.result.keys {
+                print(key,appDelegate.result[key]!)
+            }
+            break
+        default:
+            break
+        }
+    }
+    
+    func didDeselect(_ checkbox: CCheckbox) {
+        let appDelegate = UIApplication.shared.delegate as! AppDelegate
+        switch checkbox {
+        case SecurityCheckbox:
+            appDelegate.result["nagatani"]! -= 3
+            appDelegate.Question4status["security"]! = false
+            for key in appDelegate.result.keys {
+                print(key,appDelegate.result[key]!)
+            }
+            break
+        case AgricultureCheckbox:
+            appDelegate.result["tamaki"]! -= 3
+            appDelegate.Question4status["agriculture"]! = false
+            for key in appDelegate.result.keys {
+                print(key,appDelegate.result[key]!)
+            }
+            break
+        case RadioCheckbox:
+            appDelegate.result["wada"]! -= 3
+            appDelegate.result["miyazato"]! -= 1
+            appDelegate.Question4status["radio"]! = false
+            for key in appDelegate.result.keys {
+                print(key,appDelegate.result[key]!)
+            }
+            break
+        case ImgProcessingCheckbox:
+            appDelegate.result["nagayama"]! -= 3
+            appDelegate.result["endo"]! -= 1
+            appDelegate.Question4status["img"]! = false
+            for key in appDelegate.result.keys {
+                print(key,appDelegate.result[key]!)
+            }
+            break
+        case NLPCheckbox:
+            appDelegate.result["NAL"]! -= 3
+            appDelegate.result["endo"]! -= 1
+            appDelegate.Question4status["nlp"]! = false
+            for key in appDelegate.result.keys {
+                print(key,appDelegate.result[key]!)
+            }
+            break
+        case ParallelCheckbox:
+            appDelegate.result["nakamura"]! -= 3
+            appDelegate.Question4status["parallel"]! = false
+            for key in appDelegate.result.keys {
+                print(key,appDelegate.result[key]!)
+            }
+            break
+        case DeepLearningCheckbox:
+            appDelegate.result["endo"]! -= 3
+            appDelegate.result["nagayama"]! -= 1
+            appDelegate.Question4status["deeplearning"]! = false
+            for key in appDelegate.result.keys {
+                print(key,appDelegate.result[key]!)
+            }
+            break
+        case IntelligenceRobotCheckbox:
+            appDelegate.result["yamada"]! -= 3
+            appDelegate.Question4status["intelligence"]! = false
+            for key in appDelegate.result.keys {
+                print(key,appDelegate.result[key]!)
+            }
+            break
+        case ARCheckbox:
+            appDelegate.result["akamine"]! -= 3
+            appDelegate.Question4status["ar"]! = false
+            for key in appDelegate.result.keys {
+                print(key,appDelegate.result[key]!)
+            }
+            break
+        case DistributeCheckbox:
+            appDelegate.result["kono"]! -= 3
+            appDelegate.Question4status["distribute"]! = false
+            for key in appDelegate.result.keys {
+                print(key,appDelegate.result[key]!)
+            }
+            break
+        case MathAnalysisCheckbox:
+            appDelegate.result["okazaki"]! -= 3
+            appDelegate.Question4status["math"]! = false
+            for key in appDelegate.result.keys {
+                print(key,appDelegate.result[key]!)
+            }
+            break
+        case CalcArchitectureCheckbox:
+            appDelegate.result["yoshida"]! -= 3
+            appDelegate.result["wada"]! -= 1
+            appDelegate.Question4status["calc"]! = false
+            for key in appDelegate.result.keys {
+                print(key,appDelegate.result[key]!)
+            }
+            break
+        case SignalProcessingCheckbox:
+            appDelegate.result["kang"]! -= 3
+            appDelegate.result["wada"]! -= 1
+            appDelegate.Question4status["signal"]! = false
+            for key in appDelegate.result.keys {
+                print(key,appDelegate.result[key]!)
+            }
+            break
+        case BiomechanicsCheckbox:
+            appDelegate.result["kunita"]! -= 3
+            appDelegate.Question4status["biomechanics"]! = false
+            for key in appDelegate.result.keys {
+                print(key,appDelegate.result[key]!)
+            }
+            break
+        default:
+            break
+        }
+    }
+}
