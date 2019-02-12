@@ -786,6 +786,13 @@ extension QuestionThreeViewController: CheckboxDelegate {
 
 
 class QuestionFourViewController: UIViewController{
+    
+    @IBAction func Result(_ sender: Any) {
+        let storyboard: UIStoryboard = UIStoryboard(name: "Last", bundle: nil)
+        let nextView = storyboard.instantiateViewController(withIdentifier:"Last") as! Last
+        self.present(nextView, animated: true, completion: nil)
+    }
+    
     @IBAction func Bottonturn(_ sender: Any) {       //Main2.storyboardへの戻るボタン
         self.dismiss(animated:true, completion: nil)
     }

@@ -43,11 +43,11 @@
                                         </items>
                                     </navigationBar>
                                     <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="E6J-yG-y8E">
-                                        <rect key="frame" x="52" y="203" width="270" height="41"/>
+                                        <rect key="frame" x="52" y="203" width="315" height="75"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BUh-ij-xpu" customClass="CCheckbox" customModule="modeling_ateam" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="0.0" width="30" height="41"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="75" height="75"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                 <userDefinedRuntimeAttributes>
@@ -57,7 +57,7 @@
                                                 </userDefinedRuntimeAttributes>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="プログラミング" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="idX-Ed-bYo">
-                                                <rect key="frame" x="30" y="0.0" width="240" height="41"/>
+                                                <rect key="frame" x="75" y="0.0" width="240" height="75"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="34"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -65,11 +65,11 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Tyy-JA-cnH">
-                                        <rect key="frame" x="419" y="883" width="249" height="34"/>
+                                        <rect key="frame" x="419" y="883" width="294" height="75"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qwy-x0-oq2" customClass="CCheckbox" customModule="modeling_ateam" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="0.0" width="30" height="34"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="75" height="75"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                 <userDefinedRuntimeAttributes>
@@ -79,7 +79,7 @@
                                                 </userDefinedRuntimeAttributes>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ディジタル信号処理" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MWz-1a-fq8">
-                                                <rect key="frame" x="30" y="0.0" width="219" height="34"/>
+                                                <rect key="frame" x="75" y="0.0" width="219" height="75"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -87,11 +87,11 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="g5W-1t-jKL">
-                                        <rect key="frame" x="419" y="203" width="235" height="55"/>
+                                        <rect key="frame" x="419" y="203" width="280" height="75"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cBi-BG-W3w" customClass="CCheckbox" customModule="modeling_ateam" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="0.0" width="30" height="55"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="75" height="75"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                 <userDefinedRuntimeAttributes>
@@ -101,7 +101,7 @@
                                                 </userDefinedRuntimeAttributes>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="確率統計" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lgn-7D-r0j">
-                                                <rect key="frame" x="50" y="0.0" width="185" height="55"/>
+                                                <rect key="frame" x="95" y="0.0" width="185" height="75"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="46"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -109,11 +109,11 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Rqm-pI-IZg">
-                                        <rect key="frame" x="419" y="313" width="142.5" height="55"/>
+                                        <rect key="frame" x="419" y="313" width="187.5" height="75"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="snZ-UG-9cO" customClass="CCheckbox" customModule="modeling_ateam" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="0.0" width="30" height="55"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="75" height="75"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                 <userDefinedRuntimeAttributes>
@@ -123,7 +123,7 @@
                                                 </userDefinedRuntimeAttributes>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="情ネ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WIa-JL-LhJ">
-                                                <rect key="frame" x="50" y="0.0" width="92.5" height="55"/>
+                                                <rect key="frame" x="95" y="0.0" width="92.5" height="75"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="46"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -131,11 +131,11 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="EW9-c6-1T1">
-                                        <rect key="frame" x="419" y="425" width="189" height="55"/>
+                                        <rect key="frame" x="419" y="425" width="234" height="75"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Jo-6W-phc" customClass="CCheckbox" customModule="modeling_ateam" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="0.0" width="30" height="55"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="75" height="75"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                 <userDefinedRuntimeAttributes>
@@ -145,7 +145,7 @@
                                                 </userDefinedRuntimeAttributes>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="計アキ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9E3-Cw-Y3I">
-                                                <rect key="frame" x="50" y="0.0" width="139" height="55"/>
+                                                <rect key="frame" x="95" y="0.0" width="139" height="75"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="46"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -153,11 +153,11 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="fI5-WZ-o7q">
-                                        <rect key="frame" x="419" y="539" width="256.5" height="49"/>
+                                        <rect key="frame" x="419" y="539" width="301.5" height="75"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mzT-K5-Y76" customClass="CCheckbox" customModule="modeling_ateam" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="0.0" width="30" height="49"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="75" height="75"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                 <userDefinedRuntimeAttributes>
@@ -167,7 +167,7 @@
                                                 </userDefinedRuntimeAttributes>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="工業数学Ⅱ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xoe-iE-lP4">
-                                                <rect key="frame" x="50" y="0.0" width="206.5" height="49"/>
+                                                <rect key="frame" x="95" y="0.0" width="206.5" height="75"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="41"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -175,11 +175,11 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="HUG-qn-0AN">
-                                        <rect key="frame" x="419" y="655" width="251.5" height="48"/>
+                                        <rect key="frame" x="419" y="655" width="296.5" height="75"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Ge-mj-PYY" customClass="CCheckbox" customModule="modeling_ateam" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="0.0" width="30" height="48"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="75" height="75"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                 <userDefinedRuntimeAttributes>
@@ -189,7 +189,7 @@
                                                 </userDefinedRuntimeAttributes>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="工業数学Ⅲ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l9n-Pl-9dN">
-                                                <rect key="frame" x="50" y="0.0" width="201.5" height="48"/>
+                                                <rect key="frame" x="95" y="0.0" width="201.5" height="75"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -197,11 +197,11 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="nbO-2t-7vv">
-                                        <rect key="frame" x="52" y="313" width="281.5" height="55"/>
+                                        <rect key="frame" x="52" y="313" width="326.5" height="75"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ytu-9S-6TR" customClass="CCheckbox" customModule="modeling_ateam" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="0.0" width="30" height="55"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="75" height="75"/>
                                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="image" keyPath="normalImage" value="unchecked"/>
@@ -210,7 +210,7 @@
                                                 </userDefinedRuntimeAttributes>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="工業数学Ⅰ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SRC-3W-AWi">
-                                                <rect key="frame" x="50" y="0.0" width="231.5" height="55"/>
+                                                <rect key="frame" x="95" y="0.0" width="231.5" height="75"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="46"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -218,11 +218,11 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="mF5-sA-Ydt">
-                                        <rect key="frame" x="52" y="425" width="235" height="55"/>
+                                        <rect key="frame" x="52" y="425" width="280" height="75"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qhA-Vz-eeO" customClass="CCheckbox" customModule="modeling_ateam" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="0.0" width="30" height="55"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="75" height="75"/>
                                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="image" keyPath="normalImage" value="unchecked"/>
@@ -231,7 +231,7 @@
                                                 </userDefinedRuntimeAttributes>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="離散数学" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XOH-eL-u5O">
-                                                <rect key="frame" x="50" y="0.0" width="185" height="55"/>
+                                                <rect key="frame" x="95" y="0.0" width="185" height="75"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="46"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -239,11 +239,11 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Fe2-kx-4U6">
-                                        <rect key="frame" x="52" y="539" width="235" height="55"/>
+                                        <rect key="frame" x="52" y="539" width="280" height="75"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GG4-py-DZ5" customClass="CCheckbox" customModule="modeling_ateam" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="0.0" width="30" height="55"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="75" height="75"/>
                                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="image" keyPath="normalImage" value="unchecked"/>
@@ -252,7 +252,7 @@
                                                 </userDefinedRuntimeAttributes>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="コンシス" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UnA-WQ-QNd">
-                                                <rect key="frame" x="50" y="0.0" width="185" height="55"/>
+                                                <rect key="frame" x="95" y="0.0" width="185" height="75"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="46"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -260,11 +260,11 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="rDB-yW-iYT">
-                                        <rect key="frame" x="52" y="655" width="274" height="44.5"/>
+                                        <rect key="frame" x="52" y="655" width="319" height="75"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="htd-f6-u96" customClass="CCheckbox" customModule="modeling_ateam" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="0.0" width="30" height="44.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="75" height="75"/>
                                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="image" keyPath="normalImage" value="unchecked"/>
@@ -273,7 +273,7 @@
                                                 </userDefinedRuntimeAttributes>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="アルゴリズム" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nAz-mW-KK6">
-                                                <rect key="frame" x="50" y="0.0" width="224" height="44.5"/>
+                                                <rect key="frame" x="95" y="0.0" width="224" height="75"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="37"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -281,11 +281,11 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Var-7N-xxK">
-                                        <rect key="frame" x="52" y="881" width="280" height="45.5"/>
+                                        <rect key="frame" x="52" y="881" width="325" height="75"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qS6-ef-6Pr" customClass="CCheckbox" customModule="modeling_ateam" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="0.0" width="30" height="45.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="75" height="75"/>
                                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="image" keyPath="normalImage" value="unchecked"/>
@@ -294,7 +294,7 @@
                                                 </userDefinedRuntimeAttributes>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="データベース" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mkd-Eo-4x2">
-                                                <rect key="frame" x="50" y="0.0" width="230" height="45.5"/>
+                                                <rect key="frame" x="95" y="0.0" width="230" height="75"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="38"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -302,11 +302,11 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="4cd-1H-WdR">
-                                        <rect key="frame" x="419" y="767" width="235" height="55"/>
+                                        <rect key="frame" x="419" y="767" width="280" height="75"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HyD-cc-JwU" customClass="CCheckbox" customModule="modeling_ateam" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="0.0" width="30" height="55"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="75" height="75"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                 <userDefinedRuntimeAttributes>
@@ -316,7 +316,7 @@
                                                 </userDefinedRuntimeAttributes>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="人工知能" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h09-3M-dLr">
-                                                <rect key="frame" x="50" y="0.0" width="185" height="55"/>
+                                                <rect key="frame" x="95" y="0.0" width="185" height="75"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="46"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -324,11 +324,11 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Qsh-sb-Ndg">
-                                        <rect key="frame" x="52" y="767" width="112" height="55"/>
+                                        <rect key="frame" x="52" y="767" width="157" height="75"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n9M-f6-kSo" customClass="CCheckbox" customModule="modeling_ateam" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="0.0" width="30" height="55"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="75" height="75"/>
                                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="image" keyPath="normalImage" value="unchecked"/>
@@ -337,7 +337,7 @@
                                                 </userDefinedRuntimeAttributes>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="OS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jkb-oQ-8SC">
-                                                <rect key="frame" x="50" y="0.0" width="62" height="55"/>
+                                                <rect key="frame" x="95" y="0.0" width="62" height="75"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="46"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -416,11 +416,11 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mdq-JA-rQY">
-                                <rect key="frame" x="192" y="260" width="231" height="60"/>
+                                <rect key="frame" x="192" y="260" width="276" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K6k-lh-rKL" customClass="CCheckbox" customModule="modeling_ateam" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="30" height="60"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="75" height="75"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <userDefinedRuntimeAttributes>
@@ -430,7 +430,7 @@
                                         </userDefinedRuntimeAttributes>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="吉田先生" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ynh-2x-HsM">
-                                        <rect key="frame" x="30" y="0.0" width="201" height="60"/>
+                                        <rect key="frame" x="75" y="0.0" width="201" height="75"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -438,11 +438,11 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MNv-XF-t8V">
-                                <rect key="frame" x="192" y="425" width="231" height="60"/>
+                                <rect key="frame" x="192" y="425" width="276" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mlv-p1-Yhf" customClass="CCheckbox" customModule="modeling_ateam" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="30" height="60"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="75" height="75"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <userDefinedRuntimeAttributes>
@@ -452,7 +452,7 @@
                                         </userDefinedRuntimeAttributes>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="國田先生" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pud-Qj-lD4">
-                                        <rect key="frame" x="30" y="0.0" width="201" height="60"/>
+                                        <rect key="frame" x="75" y="0.0" width="201" height="75"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -460,11 +460,11 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="x8g-OF-3Hf">
-                                <rect key="frame" x="192" y="598" width="231" height="60"/>
+                                <rect key="frame" x="192" y="598" width="276" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PxQ-Gq-ltR" customClass="CCheckbox" customModule="modeling_ateam" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="30" height="60"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="75" height="75"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <userDefinedRuntimeAttributes>
@@ -474,7 +474,7 @@
                                         </userDefinedRuntimeAttributes>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="赤嶺先生" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lsv-7O-haP">
-                                        <rect key="frame" x="30" y="0.0" width="201" height="60"/>
+                                        <rect key="frame" x="75" y="0.0" width="201" height="75"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -482,11 +482,11 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="T73-WE-bqo">
-                                <rect key="frame" x="192" y="781" width="231" height="60"/>
+                                <rect key="frame" x="192" y="781" width="276" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n71-ZX-Mrx" customClass="CCheckbox" customModule="modeling_ateam" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="30" height="60"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="75" height="75"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <userDefinedRuntimeAttributes>
@@ -496,7 +496,7 @@
                                         </userDefinedRuntimeAttributes>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="宮里先生" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kec-Vq-Q3e">
-                                        <rect key="frame" x="30" y="0.0" width="201" height="60"/>
+                                        <rect key="frame" x="75" y="0.0" width="201" height="75"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -555,11 +555,11 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="toN-PB-lgn">
-                                <rect key="frame" x="69" y="215" width="180.5" height="60"/>
+                                <rect key="frame" x="69" y="215" width="225.5" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2yv-ae-dz0" customClass="CCheckbox" customModule="modeling_ateam" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="30" height="60"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="75" height="75"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <userDefinedRuntimeAttributes>
@@ -569,7 +569,7 @@
                                         </userDefinedRuntimeAttributes>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Python" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AV9-aY-cZG">
-                                        <rect key="frame" x="30" y="0.0" width="150.5" height="60"/>
+                                        <rect key="frame" x="75" y="0.0" width="150.5" height="75"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -577,11 +577,11 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0xh-rX-l7K">
-                                <rect key="frame" x="69" y="374" width="110.5" height="60"/>
+                                <rect key="frame" x="69" y="374" width="155.5" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lc9-ci-Ofh" customClass="CCheckbox" customModule="modeling_ateam" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="30" height="60"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="75" height="75"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <userDefinedRuntimeAttributes>
@@ -591,7 +591,7 @@
                                         </userDefinedRuntimeAttributes>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Perl" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YvC-Ke-iAw">
-                                        <rect key="frame" x="30" y="0.0" width="80.5" height="60"/>
+                                        <rect key="frame" x="75" y="0.0" width="80.5" height="75"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -599,11 +599,11 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IeW-L9-NZJ">
-                                <rect key="frame" x="69" y="531" width="165.5" height="60"/>
+                                <rect key="frame" x="69" y="531" width="210.5" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XcQ-YP-zD3" customClass="CCheckbox" customModule="modeling_ateam" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="30" height="60"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="75" height="75"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <userDefinedRuntimeAttributes>
@@ -613,7 +613,7 @@
                                         </userDefinedRuntimeAttributes>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="C言語" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k6q-gG-blc">
-                                        <rect key="frame" x="30" y="0.0" width="135.5" height="60"/>
+                                        <rect key="frame" x="75" y="0.0" width="135.5" height="75"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -621,11 +621,11 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="chz-YG-s0M">
-                                <rect key="frame" x="69" y="701" width="124" height="60"/>
+                                <rect key="frame" x="69" y="701" width="169" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="asz-SM-M3d" customClass="CCheckbox" customModule="modeling_ateam" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="30" height="60"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="75" height="75"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <userDefinedRuntimeAttributes>
@@ -635,7 +635,7 @@
                                         </userDefinedRuntimeAttributes>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PHP" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rt4-C9-9wa">
-                                        <rect key="frame" x="30" y="0.0" width="94" height="60"/>
+                                        <rect key="frame" x="75" y="0.0" width="94" height="75"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -643,11 +643,11 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VYa-1v-Bz1">
-                                <rect key="frame" x="69" y="872" width="158.5" height="60"/>
+                                <rect key="frame" x="69" y="872" width="203.5" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SkM-vd-QsH" customClass="CCheckbox" customModule="modeling_ateam" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="30" height="60"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="75" height="75"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <userDefinedRuntimeAttributes>
@@ -657,7 +657,7 @@
                                         </userDefinedRuntimeAttributes>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="VHDL" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b8s-GU-s8j">
-                                        <rect key="frame" x="30" y="0.0" width="128.5" height="60"/>
+                                        <rect key="frame" x="75" y="0.0" width="128.5" height="75"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -665,11 +665,11 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5Ti-n3-PdQ">
-                                <rect key="frame" x="377" y="215" width="60.5" height="60"/>
+                                <rect key="frame" x="377" y="215" width="105.5" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xXo-OO-Dxf" customClass="CCheckbox" customModule="modeling_ateam" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="30" height="60"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="75" height="75"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <userDefinedRuntimeAttributes>
@@ -679,7 +679,7 @@
                                         </userDefinedRuntimeAttributes>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="R" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jQV-FJ-99Z">
-                                        <rect key="frame" x="30" y="0.0" width="30.5" height="60"/>
+                                        <rect key="frame" x="75" y="0.0" width="30.5" height="75"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -687,11 +687,11 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0gl-RO-ZtX">
-                                <rect key="frame" x="377" y="374" width="130" height="60"/>
+                                <rect key="frame" x="377" y="374" width="175" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q4c-pc-L2A" customClass="CCheckbox" customModule="modeling_ateam" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="30" height="60"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="75" height="75"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <userDefinedRuntimeAttributes>
@@ -701,7 +701,7 @@
                                         </userDefinedRuntimeAttributes>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Java" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d5f-KU-gFQ">
-                                        <rect key="frame" x="30" y="0.0" width="100" height="60"/>
+                                        <rect key="frame" x="75" y="0.0" width="100" height="75"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -709,11 +709,11 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ezY-lR-lMP">
-                                <rect key="frame" x="377" y="531" width="291" height="44.5"/>
+                                <rect key="frame" x="377" y="531" width="336" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SjF-q6-teF" customClass="CCheckbox" customModule="modeling_ateam" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="30" height="44.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="75" height="75"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <userDefinedRuntimeAttributes>
@@ -723,7 +723,7 @@
                                         </userDefinedRuntimeAttributes>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="アセンブラ言語" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1dc-Ed-Gec">
-                                        <rect key="frame" x="30" y="0.0" width="261" height="44.5"/>
+                                        <rect key="frame" x="75" y="0.0" width="261" height="75"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="37"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -731,11 +731,11 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PVY-s4-HBp">
-                                <rect key="frame" x="377" y="701" width="143" height="60"/>
+                                <rect key="frame" x="377" y="701" width="188" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PKo-7l-W7J" customClass="CCheckbox" customModule="modeling_ateam" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="30" height="60"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="75" height="75"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <userDefinedRuntimeAttributes>
@@ -745,7 +745,7 @@
                                         </userDefinedRuntimeAttributes>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Agda" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DUt-yg-flI">
-                                        <rect key="frame" x="30" y="0.0" width="113" height="60"/>
+                                        <rect key="frame" x="75" y="0.0" width="113" height="75"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -753,11 +753,11 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="h7Y-QW-IK6">
-                                <rect key="frame" x="377" y="872" width="184.5" height="60"/>
+                                <rect key="frame" x="377" y="872" width="229.5" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ne4-WU-TCH" customClass="CCheckbox" customModule="modeling_ateam" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="30" height="60"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="75" height="75"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <userDefinedRuntimeAttributes>
@@ -767,7 +767,7 @@
                                         </userDefinedRuntimeAttributes>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Haskell" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LKG-Jh-p8G">
-                                        <rect key="frame" x="30" y="0.0" width="154.5" height="60"/>
+                                        <rect key="frame" x="75" y="0.0" width="154.5" height="75"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -1127,11 +1127,22 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZGG-Zc-gkq">
+                                <rect key="frame" x="631" y="20" width="117" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <state key="normal" title="次へ"/>
+                                <connections>
+                                    <action selector="Result:" destination="Hp9-Vc-m97" eventType="touchUpInside" id="oDM-Wf-mMN"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="vdy-cv-PEG"/>
                     </view>
+                    <toolbarItems/>
                     <navigationItem key="navigationItem" id="PaS-cW-MZK"/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="ARCheckbox" destination="VsH-GU-7vC" id="S1b-Uk-ne6"/>
                         <outlet property="AgricultureCheckbox" destination="5Yx-4H-qdn" id="RM9-Wz-AXq"/>

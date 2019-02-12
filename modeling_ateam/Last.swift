@@ -9,6 +9,11 @@
 import UIKit
 
 class Last: UIViewController {
+    @IBAction func Back_home(_ sender: Any) {
+        let storyboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+        let nextView = storyboard.instantiateViewController(withIdentifier:"Main") as! ViewController
+        self.present(nextView, animated: true, completion: nil)
+    }
     @IBOutlet weak var kekka: UILabel!
     @IBAction func a(_ sender: Any) {
         ab ()
