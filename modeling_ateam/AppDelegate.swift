@@ -14,8 +14,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
     
     var result : [String : Int] = ["akamine" : 0, "yamada" : 0, "kono": 0, "nagatani" : 0 , "nagayama" : 0, "yoshida" : 0, "NAL" : 0, "nakamura" : 0, "kunita" : 0, "kang" : 0, "endo" : 0, "tamaki" : 0, "okazaki" : 0, "miyazato" : 0, "wada" : 0]
-
-
+    var Question1status : [String : Bool] = ["prog" : false,"liner" : false,"sep" : false, "comsys" : false, "alg" : false, "os" : false, "db" : false, "datascience" : false, "info" : false, "arch" : false, "mathii" : false, "mathiii" : false, "ai" : false, "digsignal" : false]
+    var Question2status : [String : Bool] = ["yoshida" : false, "kunita" : false, "miyazato" : false, "akamine" : false]
+    var Question3status : [String : Bool] = ["python" : false, "perl" : false, "clang" : false, "vhdl" : false, "rlang" : false, "java" : false, "php" : false, "agda" : false, "assembly" : false, "haskell" : false]
+    var Question4status : [String : Bool] = ["security": false,"agriculture":false,"radio":false,"img":false,"nlp":false,"parallel":false,"deeplearning":false,"intelligence":false,"ar":false,"distribute":false,"math":false,"calc":false,"signal":false,"biomechanics":false]
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application         
         return true

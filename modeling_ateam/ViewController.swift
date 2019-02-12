@@ -20,8 +20,17 @@ class ViewController: UIViewController {
     }
     @IBAction func ButtonNext(_ sender: Any) {      //Main3.storyboardへの遷移ボタン
         let appDelegate = UIApplication.shared.delegate as! AppDelegate
-        for name in appDelegate.result.keys {
-            appDelegate.result[name] = 0
+        for key in appDelegate.result.keys {
+            appDelegate.result[key] = 0
+        }
+        for key in appDelegate.Question1status.keys {
+            appDelegate.Question1status[key] = false
+        }
+        for key in appDelegate.Question2status.keys {
+            appDelegate.Question2status[key] = false
+        }
+        for key in appDelegate.Question3status.keys {
+            appDelegate.Question3status[key] = false
         }
         let storyboard: UIStoryboard = UIStoryboard(name: "diagnosis", bundle: nil)
         let thirdView = storyboard.instantiateViewController(withIdentifier:"diagnosis") as! DiagnosisViewController
@@ -30,8 +39,6 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        let appDelegate = UIApplication.shared.delegate as! AppDelegate
-        print("Number:\(appDelegate.result["akamine"]!)")
     }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // destinationをUINavigationControllerにキャストしてインスタンス化
