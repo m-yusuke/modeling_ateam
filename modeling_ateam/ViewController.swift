@@ -12,7 +12,16 @@ import UIKit
 class ViewController: UIViewController {
     
     var window: UIWindow?
-
+    
+    
+    @IBAction func ButtonHelp(_ sender: Any) {
+        let storyboard: UIStoryboard = UIStoryboard(name: "Help", bundle: nil)
+        let nextView = storyboard.instantiateViewController(withIdentifier:"Help") as! HelpViewController    
+        self.present(nextView, animated: true, completion: nil)
+    }
+    
+    
+    
     @IBAction func ButtonThird(_ sender: Any) {    //Main2.storyboardへの遷移ボタン
         let storyboard: UIStoryboard = UIStoryboard(name: "LabList", bundle: nil)        //"Main2"の部分が遷移先のstoryboardの名前を入れる.
         let nextView = storyboard.instantiateViewController(withIdentifier:"LabList") as! NextViewController    //"next"の部分に遷移先storyboardのidentityのstoryIDを入れる.NextViewControllerの部分はViewControllerの名前を入れる.
